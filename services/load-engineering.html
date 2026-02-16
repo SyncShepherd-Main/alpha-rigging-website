@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Engineering & Lift Planning Services WA | Rigging Design | Alpha Rigging</title>
+    <meta name="description" content="Expert load engineering and lift planning services across Washington State. Professional load calculations, center of gravity analysis, rigging design, and engineered lift plans. Ensure safety and compliance for critical lifts.">
+    <meta name="keywords" content="load engineering Washington, lift planning services, rigging engineering, center of gravity analysis, critical lift planning, load calculations, engineered rigging solutions WA">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Load Engineering and Lift Planning Services",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Alpha Rigging",
+        "telephone": "+1-509-555-0100",
+        "url": "https://www.alpharigging.com"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "Washington"
+      },
+      "description": "Professional load engineering and lift planning services for complex rigging operations. Comprehensive analysis including load calculations, center of gravity determination, rigging design, and detailed lift plans ensuring safety and regulatory compliance.",
+      "offers": {
+        "@type": "Offer",
+        "priceRange": "$$"
+      }
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary-orange: #FF6B2C;
+            --deep-charcoal: #1A1D23;
+            --steel-gray: #4A5568;
+            --bright-white: #FFFFFF;
+            --concrete-gray: #E2E8F0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bright-white); color: var(--deep-charcoal); line-height: 1.7; }
+        nav { background: rgba(26, 29, 35, 0.95); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 1000; border-bottom: 2px solid var(--primary-orange); }
+        .nav-container { max-width: 1400px; margin: 0 auto; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; color: white; letter-spacing: 2px; text-decoration: none; }
+        .logo span { color: var(--primary-orange); }
+        .nav-links { display: flex; gap: 40px; list-style: none; }
+        .nav-links a { color: white; text-decoration: none; font-weight: 500; transition: color 0.3s ease; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; }
+        .nav-links a:hover { color: var(--primary-orange); }
+        .dropdown { position: relative; }
+        .dropdown-toggle { cursor: pointer; display: flex; align-items: center; gap: 5px; color: white; font-weight: 500; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; transition: color 0.3s ease; }
+        .dropdown-toggle:hover { color: var(--primary-orange); }
+        .dropdown-toggle::after { content: '▼'; font-size: 0.7rem; transition: transform 0.3s ease; }
+        .dropdown:hover .dropdown-toggle::after { transform: rotate(180deg); }
+        .dropdown-menu { position: absolute; top: 100%; left: 0; background: rgba(26, 29, 35, 0.98); min-width: 280px; padding: 20px 0; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.3s ease; border-top: 2px solid var(--primary-orange); box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        .dropdown:hover .dropdown-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+        .dropdown-menu a { display: block; padding: 12px 25px; color: white; text-decoration: none; font-size: 0.9rem; text-transform: none; transition: all 0.3s ease; border-left: 3px solid transparent; }
+        .dropdown-menu a:hover { background: rgba(255, 107, 44, 0.1); border-left-color: var(--primary-orange); padding-left: 30px; }
+        .mobile-menu-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+        .breadcrumb { max-width: 1400px; margin: 0 auto; padding: 20px 40px; color: var(--steel-gray); font-size: 0.9rem; }
+        .breadcrumb a { color: var(--steel-gray); text-decoration: none; }
+        .breadcrumb a:hover { color: var(--primary-orange); }
+        .hero-page { background: linear-gradient(135deg, var(--deep-charcoal) 0%, #2D3748 100%); color: white; padding: 80px 40px; position: relative; overflow: hidden; }
+        .hero-page::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(255, 107, 44, 0.03) 50px, rgba(255, 107, 44, 0.03) 51px); pointer-events: none; }
+        .hero-content { max-width: 1400px; margin: 0 auto; position: relative; z-index: 1; }
+        .hero-badge { display: inline-block; background: var(--primary-orange); color: white; padding: 10px 20px; font-size: 0.85rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 20px; }
+        h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2.5rem, 6vw, 4.5rem); letter-spacing: 2px; margin-bottom: 20px; line-height: 1.1; }
+        .hero-subtitle { font-size: 1.3rem; opacity: 0.9; max-width: 800px; margin-bottom: 30px; }
+        .btn { display: inline-block; padding: 16px 35px; background: var(--primary-orange); color: white; text-decoration: none; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: all 0.3s ease; margin-right: 15px; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%); }
+        .btn:hover { background: #FF5212; transform: translateY(-2px); box-shadow: 0 10px 20px rgba(255, 107, 44, 0.3); }
+        .btn-secondary { background: transparent; border: 2px solid var(--primary-orange); }
+        .content-section { max-width: 1400px; margin: 0 auto; padding: 80px 40px; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 60px; margin-top: 40px; }
+        .main-content h2 { font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; color: var(--deep-charcoal); margin: 40px 0 20px; letter-spacing: 1px; }
+        .main-content h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; color: var(--deep-charcoal); margin: 30px 0 15px; letter-spacing: 1px; }
+        .main-content h4 { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; color: var(--primary-orange); margin: 20px 0 10px; }
+        .main-content p { margin-bottom: 20px; font-size: 1.05rem; line-height: 1.8; }
+        .main-content ul, .main-content ol { margin: 20px 0 20px 30px; }
+        .main-content li { margin-bottom: 12px; font-size: 1.05rem; }
+        .highlight-box { background: var(--concrete-gray); padding: 30px; border-left: 5px solid var(--primary-orange); margin: 30px 0; }
+        .process-step { background: white; border: 2px solid var(--concrete-gray); padding: 25px; margin-bottom: 20px; clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%); }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin: 30px 0; }
+        .service-card { background: white; border: 2px solid var(--concrete-gray); padding: 25px; transition: all 0.3s ease; }
+        .service-card:hover { border-color: var(--primary-orange); transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .service-card h4 { color: var(--primary-orange); margin-bottom: 10px; }
+        .sidebar { position: sticky; top: 100px; height: fit-content; }
+        .sidebar-widget { background: white; border: 2px solid var(--concrete-gray); padding: 30px; margin-bottom: 30px; }
+        .sidebar-widget h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 20px; letter-spacing: 1px; }
+        .sidebar-widget ul { list-style: none; }
+        .sidebar-widget li { padding: 12px 0; border-bottom: 1px solid var(--concrete-gray); }
+        .sidebar-widget li:last-child { border-bottom: none; }
+        .sidebar-widget a { color: var(--deep-charcoal); text-decoration: none; transition: color 0.3s ease; }
+        .sidebar-widget a:hover { color: var(--primary-orange); }
+        .cta-box { background: var(--primary-orange); color: white; padding: 30px; text-align: center; }
+        .cta-box h3 { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; margin-bottom: 15px; }
+        .cta-box .btn { background: white; color: var(--primary-orange); margin-top: 15px; }
+        .faq-item { margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid var(--concrete-gray); }
+        .faq-question { font-weight: 600; font-size: 1.15rem; margin-bottom: 10px; color: var(--deep-charcoal); }
+        footer { background: var(--deep-charcoal); color: white; padding: 60px 40px 30px; }
+        .footer-content { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-bottom: 40px; }
+        .footer-section h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 20px; letter-spacing: 1px; }
+        .footer-section ul { list-style: none; }
+        .footer-section ul li { margin-bottom: 12px; }
+        .footer-section a { color: var(--concrete-gray); text-decoration: none; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--primary-orange); }
+        .footer-bottom { text-align: center; padding-top: 30px; border-top: 1px solid rgba(255, 255, 255, 0.1); color: var(--concrete-gray); }
+        @media (max-width: 968px) {
+            .mobile-menu-toggle { display: block; }
+            .nav-links { position: fixed; top: 70px; left: -100%; width: 100%; background: rgba(26, 29, 35, 0.98); flex-direction: column; padding: 40px; gap: 0; transition: left 0.3s ease; max-height: calc(100vh - 70px); overflow-y: auto; }
+            .nav-links.active { left: 0; }
+            .nav-links li { width: 100%; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 15px 0; }
+            .dropdown-menu { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none; border-top: none; padding: 10px 0 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+            .dropdown.active .dropdown-menu { max-height: 600px; }
+            .content-grid { grid-template-columns: 1fr; }
+            .sidebar { position: static; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="../index.html" class="logo">ALPHA <span>RIGGING</span></a>
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <span class="dropdown-toggle">Services</span>
+                    <div class="dropdown-menu">
+                        <a href="heavy-equipment-moving.html">Heavy Equipment Moving</a>
+                        <a href="crane-services.html">Crane Services</a>
+                        <a href="structural-steel-rigging.html">Structural Steel Rigging</a>
+                        <a href="plant-maintenance.html">Plant Maintenance Support</a>
+                        <a href="load-engineering.html">Load Engineering & Lift Planning</a>
+                        <a href="material-handling.html">Material Handling Solutions</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <span class="dropdown-toggle">Locations</span>
+                    <div class="dropdown-menu">
+                        <a href="../locations/seattle-rigging-services.html">Seattle</a>
+                        <a href="../locations/tacoma-rigging-services.html">Tacoma</a>
+                        <a href="../locations/spokane-rigging-services.html">Spokane</a>
+                        <a href="../locations/bellevue-rigging-services.html">Bellevue</a>
+                        <a href="../locations/everett-rigging-services.html">Everett</a>
+                        <a href="../locations/vancouver-rigging-services.html">Vancouver</a>
+                        <a href="../locations/yakima-rigging-services.html">Yakima</a>
+                        <a href="../locations/bellingham-rigging-services.html">Bellingham</a>
+                        <a href="../locations/olympia-rigging-services.html">Olympia</a>
+                        <a href="../locations/tri-cities-rigging-services.html">Tri-Cities</a>
+                        <a href="../locations/south-king-county-rigging-services.html">South King County</a>
+                        <a href="../locations/eastside-rigging-services.html">Eastside</a>
+                    </div>
+                </li>
+                <li><a href="../index.html#why-us">About</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb">
+        <a href="../index.html">Home</a> / <a href="../index.html#services">Services</a> / Load Engineering & Lift Planning
+    </div>
+
+    <section class="hero-page">
+        <div class="hero-content">
+            <div class="hero-badge">Engineering Excellence</div>
+            <h1>Load Engineering & Lift Planning Services in Washington State</h1>
+            <p class="hero-subtitle">Professional load engineering, center of gravity analysis, rigging design, and comprehensive lift planning for critical rigging operations. Ensure safety, compliance, and successful execution with expert engineering support from Alpha Rigging.</p>
+            <a href="#contact" class="btn">Get Engineering Quote</a>
+            <a href="tel:+15095550100" class="btn btn-secondary">Call (509) 555-0100</a>
+        </div>
+    </section>
+
+    <div class="content-section">
+        <div class="content-grid">
+            <div class="main-content">
+                <h2>Professional Load Engineering & Lift Planning Services</h2>
+                <p>Complex rigging operations demand more than experience and equipment—they require engineering analysis that transforms uncertainty into confidence. When you're lifting loads worth hundreds of thousands of dollars, positioning equipment with millimeter precision, or working in challenging environments where failure isn't an option, proper load engineering and lift planning aren't optional extras—they're essential safeguards that protect people, equipment, and your project timeline.</p>
+
+                <p>Alpha Rigging's load engineering services bring 25+ years of field experience together with formal engineering analysis to design rigging solutions that are safe, efficient, and compliant with OSHA and ASME standards. Our engineers have designed lift plans for everything from 200,000-pound bridge girders to delicate aerospace components, from routine equipment moves to once-in-a-career critical lifts that keep project managers awake at night.</p>
+
+                <div class="highlight-box">
+                    <h3>When Load Engineering is Required</h3>
+                    <p>OSHA 1926.1400 requires written lift plans for "critical lifts" including loads exceeding 75% of crane capacity, multiple crane lifts, loads requiring assembly/disassembly, or lifts presenting unusual hazards. Beyond regulatory requirements, engineering analysis provides value for any complex lift where consequences of failure are significant.</p>
+                </div>
+
+                <h2>What is Load Engineering & Lift Planning?</h2>
+                <p>Load engineering and lift planning is the systematic analysis and documentation of rigging operations to ensure safety and success. This comprehensive service includes:</p>
+
+                <ul>
+                    <li><strong>Load Weight Determination:</strong> Accurate weight calculations using manufacturer data, actual weighing, material volume calculations, or CAD modeling—because assuming weights leads to catastrophic failures</li>
+                    <li><strong>Center of Gravity Analysis:</strong> Determining the precise balance point of loads, critical for rigging point placement and preventing dangerous tilting during lifts</li>
+                    <li><strong>Rigging Design:</strong> Engineering the optimal rigging configuration including sling angles, spreader bar requirements, attachment methods, and load distribution</li>
+                    <li><strong>Equipment Selection:</strong> Specifying cranes, hoists, rigging hardware, and support equipment with appropriate capacity ratings and safety factors</li>
+                    <li><strong>Lift Sequence Planning:</strong> Documenting step-by-step procedures, identifying hazards, establishing communication protocols, and defining success criteria</li>
+                    <li><strong>Structural Analysis:</strong> Evaluating ground conditions, floor loading, attachment point strength, and load path integrity</li>
+                    <li><strong>Regulatory Compliance:</strong> Ensuring all aspects meet OSHA, ASME B30, and applicable state and local requirements</li>
+                </ul>
+
+                <h2>Our Load Engineering Services</h2>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h4>Load Weight Calculations</h4>
+                        <p>Accurate weight determination using manufacturer specifications, CAD modeling, material density calculations, physical weighing, and component analysis. We account for rigging hardware weight—often overlooked but critical for capacity calculations.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h4>Center of Gravity Analysis</h4>
+                        <p>Precise CG determination for asymmetrical loads using 3D modeling, physical measurements, test lifts, and engineering calculations. Proper CG location is essential for rigging point placement and load stability.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h4>Rigging Point Design</h4>
+                        <p>Engineering analysis of attachment points including load-bearing capacity verification, stress concentration analysis, connection design, and spreader bar requirements to distribute loads safely.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h4>Crane Selection & Positioning</h4>
+                        <p>Determining optimal crane size and type, calculating required radius and boom length, analyzing ground bearing capacity, and planning outrigger placement for stable operations.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h4>Multi-Crane Lift Engineering</h4>
+                        <p>Complex analysis for tandem lifts including load sharing calculations, synchronization requirements, communication protocols, and contingency planning for equipment failure scenarios.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h4>Critical Lift Plans</h4>
+                        <p>Comprehensive documented plans for high-risk lifts including detailed procedures, hazard analysis, equipment specifications, personnel assignments, emergency response plans, and approval signatures.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h4>3D Lift Modeling</h4>
+                        <p>Computer modeling of complex lifts showing load path, clearances, boom angles, and potential interferences. Visual models help teams understand the lift before execution.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h4>Ground Bearing Analysis</h4>
+                        <p>Evaluating soil or surface capacity to support crane outriggers and load paths. Includes recommendations for timber mats, steel plates, or ground reinforcement when needed.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h4>Specialized Rigging Solutions</h4>
+                        <p>Custom engineered rigging for unusual loads including spreader beam design, lifting fixture engineering, and specialized attachment hardware for unique geometries.</p>
+                    </div>
+                </div>
+
+                <h2>The Load Engineering Process</h2>
+
+                <div class="process-step">
+                    <h4>Step 1: Project Assessment & Data Collection</h4>
+                    <p>Engineering begins with understanding your specific requirements. We gather load specifications and drawings, site conditions and constraints, access limitations and clearances, timeline and scheduling requirements, and regulatory requirements. This information forms the foundation for all subsequent analysis. Missing or inaccurate data leads to flawed engineering—we invest time here to ensure accuracy.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Step 2: Load Analysis</h4>
+                    <p>We determine actual load characteristics including total weight (load plus rigging hardware), center of gravity location in three dimensions, load geometry and dimensions, structural integrity and lift point locations, and dynamic factors (wind loading, impact, acceleration). For complex loads, we may request manufacturer data, perform 3D CAD analysis, or recommend test weighing.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Step 3: Rigging Design</h4>
+                    <p>With load characteristics established, we engineer the rigging system: select sling types, sizes, and configurations, design spreader bars or lifting beams if needed, specify shackles, hooks, and connection hardware, calculate sling angles and resulting tensions, and verify all components have adequate capacity with safety factors. Every component is sized for the actual loads it will experience—no guessing, no assumptions.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Step 4: Equipment Selection</h4>
+                    <p>We specify lifting equipment based on engineering requirements: crane type and minimum capacity at required radius, boom length and configuration needed, ground bearing pressure and outrigger requirements, alternative equipment options when available, and backup equipment specifications for critical operations. Equipment selection considers not just capacity but also site access, operator visibility, and operational efficiency.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Step 5: Lift Sequence Development</h4>
+                    <p>Detailed procedures document the entire operation: pre-lift inspection requirements and criteria, step-by-step lift sequence with critical checkpoints, communication methods and protocols, personnel positions and responsibilities, hazard identification and mitigation measures, and contingency plans for equipment failures or changing conditions. These procedures transform engineering calculations into safe field execution.</p>
+                </div>
+
+                <div class="process-step">
+                    <h4>Step 6: Documentation & Approval</h4>
+                    <p>Final deliverables include comprehensive documentation: engineered lift plan with all calculations, rigging diagrams showing configuration and hardware, load charts and capacity verification, site plans showing crane position and load path, safety procedures and hazard analysis, and approval signatures from qualified personnel. This documentation provides both a blueprint for execution and evidence of due diligence.</p>
+                </div>
+
+                <h2>Complex Lift Scenarios Requiring Engineering</h2>
+
+                <h3>Multi-Crane Tandem Lifts</h3>
+                <p>When loads exceed single crane capacity or geometry requires multiple pick points, tandem lifts introduce significant complexity. Our engineering addresses load sharing between cranes (rarely equal), synchronization requirements and communication, differential boom angles and resulting load shifts, failure scenarios if one crane loses load, and ground bearing from multiple crane positions. Tandem lifts have caused some of industry's worst accidents—engineering prevents these failures.</p>
+
+                <h3>Long or Tall Loads with High Wind Exposure</h3>
+                <p>Structural steel beams, bridge girders, prefab building sections, and similar members present wind loading challenges. Engineering calculates wind forces on exposed surface area, dynamic load increases from wind gusts, required crane capacity margins for wind loading, maximum safe wind speeds for operations, and tag line requirements for directional control. Washington's variable weather makes wind analysis particularly important.</p>
+
+                <h3>Loads Over or Near Personnel</h3>
+                <p>Lifts occurring over occupied buildings, active work areas, public spaces, or roadways require rigorous analysis. We establish exclusion zones and barricading requirements, analyze load path and potential fall zones, design redundant rigging for critical applications, plan emergency procedures and evacuation routes, and verify insurance and liability considerations. These lifts often have zero tolerance for failure.</p>
+
+                <h3>Loads with Unknown or Uncertain Weight</h3>
+                <p>Existing equipment without documentation, salvage materials, or assemblies with internal components present weight uncertainty. Our approach includes researching manufacturer specifications and similar equipment, calculating weights from material volumes and densities, performing physical weighing when possible, conducting test lifts with instrumented load monitoring, and applying conservative safety factors for remaining uncertainty. Guessing weights is negligent—we determine them systematically.</p>
+
+                <h3>Lifts Through Restricted Openings</h3>
+                <p>Moving equipment through doorways, between columns, under overhead obstructions, or in congested spaces requires precise planning. Engineering determines minimum clearances throughout entire lift path, equipment orientation and rotation sequences, temporary removal of obstructions when necessary, rigging configurations that minimize load envelope, and go/no-go criteria for proceeding with the lift. A few inches of miscalculation can mean mission failure.</p>
+
+                <h3>Delicate or Precision Equipment</h3>
+                <p>Some loads can't tolerate normal rigging stresses—optical equipment, precision machinery, scientific instruments, or electronics require special handling. We design rigging that minimizes stress concentrations, specify attachment methods preventing damage, calculate acceleration and deceleration limits, recommend vibration isolation when needed, and plan procedures maintaining equipment within specifications. Successful lift means load arrives undamaged and functional.</p>
+
+                <h2>Why Engineering Matters: Real Consequences</h2>
+
+                <h3>Safety: Preventing Catastrophic Failures</h3>
+                <p>Rigging failures kill people every year—loads falling, cranes tipping, rigging components failing. Engineering prevents these tragedies by ensuring equipment capacities exceed loads with appropriate safety factors, verifying rigging configurations create stable lifts, identifying hazards before field operations begin, and establishing procedures that maintain safety throughout the operation. The few thousand dollars engineering costs pale compared to the human and financial costs of accidents.</p>
+
+                <h3>Asset Protection: Avoiding Equipment Damage</h3>
+                <p>Loads being moved are often worth hundreds of thousands or millions of dollars. Improper rigging causes crushing, bending, surface damage, misalignment, and structural failure. Engineering protects these assets by designing rigging that distributes loads properly, specifying attachment points that won't damage equipment, planning movements preventing impacts and collisions, and ensuring precision placement maintains tolerances. Insurance deductibles for damaged equipment quickly exceed engineering costs.</p>
+
+                <h3>Regulatory Compliance: Meeting Legal Requirements</h3>
+                <p>OSHA requires documented lift plans for critical lifts. Washington State enforces these regulations. Failure to comply results in citations, fines, stop-work orders, and potential criminal liability if accidents occur. Our engineering ensures compliance with OSHA 1926.1400 crane regulations, ASME B30 standards for rigging equipment, state and local building codes, and insurance and contract requirements. Documented engineering provides evidence of due diligence.</p>
+
+                <h3>Project Success: Avoiding Costly Delays</h3>
+                <p>Rigging failures or uncertainties cause project delays, schedule disruptions, cost overruns, and contract penalties. Engineering prevents these problems by identifying issues during planning (not execution), ensuring equipment and resources are adequate, providing clear procedures reducing confusion, and giving stakeholders confidence to approve operations. Projects stay on schedule when engineering eliminates surprises.</p>
+
+                <h2>Load Engineering for Specific Industries</h2>
+
+                <h3>Manufacturing & Metal Fabrication</h3>
+                <p>Heavy equipment moves, steel handling, and production machinery require engineering for CNC machine relocation and precision alignment, stamping press removal and installation, structural steel handling and positioning, overhead crane installation and maintenance, and production line modifications. We understand manufacturing tolerances and production scheduling pressures.</p>
+
+                <h3>Construction & Infrastructure</h3>
+                <p>Building construction and infrastructure projects involve structural steel erection for buildings, bridge girder placement and installation, precast concrete panel setting, mechanical equipment placement, and rooftop HVAC installation. Our engineers coordinate with structural engineers and general contractors to ensure compatibility.</p>
+
+                <h3>Energy & Utilities</h3>
+                <p>Utility work includes unique challenges requiring transformer installation and replacement, substation equipment handling, wind turbine component installation, transmission tower construction, and generator set installation. High voltage safety and utility coordination are integral to our planning.</p>
+
+                <h3>Aerospace & High-Tech</h3>
+                <p>Precision manufacturing demands special engineering including cleanroom equipment installation, precision machinery with tight tolerances, sensitive instrumentation handling, large composite structure movement, and test equipment positioning. We understand contamination control and precision requirements.</p>
+
+                <h2>Deliverables: What You Receive</h2>
+                <p>Alpha Rigging's engineering services provide comprehensive documentation:</p>
+
+                <ul>
+                    <li><strong>Engineered Lift Plan:</strong> Complete written document including all calculations, specifications, procedures, and approvals</li>
+                    <li><strong>Load Analysis Report:</strong> Weight calculations, CG determination, load characteristics, and assumptions</li>
+                    <li><strong>Rigging Drawings:</strong> Detailed diagrams showing rigging configuration, hardware specifications, and critical dimensions</li>
+                    <li><strong>Site Plans:</strong> Crane positioning, outrigger locations, load path, clearances, and ground bearing analysis</li>
+                    <li><strong>Equipment Specifications:</strong> Complete list of required equipment with capacity ratings and verification</li>
+                    <li><strong>Lift Procedures:</strong> Step-by-step instructions for field execution including safety checkpoints</li>
+                    <li><strong>Hazard Analysis:</strong> Identified risks and mitigation measures for all phases of operation</li>
+                    <li><strong>Approval Documentation:</strong> Signature blocks for competent person, project manager, and other stakeholders</li>
+                </ul>
+
+                <h2>Engineering + Execution: Complete Service</h2>
+                <p>While some companies only provide engineering analysis, Alpha Rigging offers complete service—we engineer the lift and execute it. This integrated approach provides significant advantages: engineers understand field realities and design practical solutions, field crews understand engineering intent and maintain compliance, communication is seamless between design and execution, and responsibility is unified—no finger-pointing between separate companies. Many customers prefer this complete service for accountability and efficiency.</p>
+
+                <h2>Frequently Asked Questions: Load Engineering</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: How much does load engineering cost?</div>
+                    <p>A: Engineering costs vary based on lift complexity. Simple lifts requiring basic calculations may cost $500-1,500. Complex critical lifts with 3D modeling, site surveys, and comprehensive documentation range from $2,500-10,000+. Consider engineering as insurance—relatively small investment protecting against catastrophic failures. We provide fixed-price quotes after understanding your requirements.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: How long does engineering analysis take?</div>
+                    <p>A: Timeline depends on complexity and information availability. Simple lifts with complete data: 2-3 business days. Standard complexity requiring some research or site visit: 5-7 business days. Complex critical lifts requiring extensive analysis: 2-3 weeks. Rush service is available for emergencies. Provide information early to avoid project delays.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Do we legally need engineered lift plans?</div>
+                    <p>A: OSHA 1926.1400 requires written plans for "critical lifts" including loads exceeding 75% of crane rated capacity, multiple crane lifts, lifts requiring assembly/disassembly near power lines, and lifts presenting unusual hazards. Even when not legally required, engineering provides value for complex operations. Washington L&I enforces these requirements—non-compliance brings citations.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Who signs off on engineered lift plans?</div>
+                    <p>A: Plans require approval from a "qualified person" per OSHA—someone with recognized degree, certificate, professional standing, or extensive knowledge, training, and experience. Alpha Rigging's engineers meet these qualifications. Additionally, project managers, crane operators, and sometimes building owners or general contractors sign acknowledging and approving the plan.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Can you engineer lifts for equipment we'll execute ourselves?</div>
+                    <p>A: Yes. While most customers prefer our integrated engineering-plus-execution service, we provide engineering-only services when customers have internal rigging capabilities. We require information about your equipment and crews to ensure engineering is compatible with your resources. We disclaim responsibility for execution performed by others.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: What if site conditions differ from engineering assumptions?</div>
+                    <p>A: Lift plans include assumptions (ground conditions, weather limits, clearances). If actual conditions differ, plans may require revision. Our engineers remain available during execution to address issues. For critical lifts, we recommend having an engineer on-site to approve deviations. Never proceed with lifts when conditions violate engineering assumptions—recalculation is required.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Can you provide peer review of existing lift plans?</div>
+                    <p>A: Yes. We review lift plans prepared by others, providing independent verification of calculations, rigging design assessment, regulatory compliance verification, and recommendations for improvements. Third-party review provides additional assurance for high-risk operations. Many general contractors require peer review for critical subcontractor lifts.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Do you provide on-site engineering support during lifts?</div>
+                    <p>A: Yes. For critical or complex lifts, having the engineer on-site provides real-time problem solving, approval authority for field changes, verification of compliance with lift plan, documentation of actual execution, and immediate response to unexpected conditions. This service particularly valuable for once-in-a-career critical lifts where engineering decisions may be needed quickly.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: How do you handle loads with unknown weight?</div>
+                    <p>A: Unknown weights require systematic determination: research manufacturer data and similar equipment, calculate from material volumes and densities, physically weigh components when possible, perform instrumented test lifts, and apply conservative safety factors for uncertainty. We never guess—we determine weight through engineering analysis or measurement. Assuming weights is professionally negligent.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Can engineering reduce crane size or rigging costs?</div>
+                    <p>A: Often yes. Proper engineering may reveal smaller cranes are adequate than originally assumed, identify more efficient rigging configurations reducing hardware costs, optimize crane positioning reducing mobilization costs, and find creative solutions for challenging lifts. Engineering investment frequently returns multiples in reduced execution costs. We provide value engineering recommendations.</p>
+                </div>
+
+                <h2>Service Areas: Load Engineering Across Washington</h2>
+                <p>Alpha Rigging provides load engineering and lift planning services throughout Washington State, including:</p>
+
+                <ul style="columns: 3; column-gap: 40px;">
+                    <li>Seattle</li>
+                    <li>Tacoma</li>
+                    <li>Spokane</li>
+                    <li>Bellevue</li>
+                    <li>Everett</li>
+                    <li>Vancouver</li>
+                    <li>Yakima</li>
+                    <li>Bellingham</li>
+                    <li>Olympia</li>
+                    <li>Renton</li>
+                    <li>Kent</li>
+                    <li>Federal Way</li>
+                    <li>Auburn</li>
+                    <li>Pasco</li>
+                    <li>Richland</li>
+                    <li>Kennewick</li>
+                    <li>Redmond</li>
+                    <li>Kirkland</li>
+                    <li>Wenatchee</li>
+                    <li>Walla Walla</li>
+                    <li>Longview</li>
+                    <li>Moses Lake</li>
+                </ul>
+
+                <p>We provide engineering services for projects throughout the Pacific Northwest and beyond.</p>
+
+                <div class="highlight-box" style="margin-top: 40px;">
+                    <h3>Need Professional Load Engineering?</h3>
+                    <p>Contact Alpha Rigging today for expert load engineering and lift planning services. Our experienced engineers transform complex rigging challenges into safe, compliant, successful operations.</p>
+                    <a href="tel:+15095550100" class="btn" style="margin-top: 20px;">Call (509) 555-0100</a>
+                    <a href="#contact" class="btn btn-secondary" style="margin-top: 20px;">Request Engineering Quote</a>
+                </div>
+            </div>
+
+            <aside class="sidebar">
+                <div class="sidebar-widget cta-box">
+                    <h3>Engineering Experts</h3>
+                    <p>25+ years designing safe, compliant rigging solutions.</p>
+                    <a href="tel:+15095550100" class="btn">Call (509) 555-0100</a>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="heavy-equipment-moving.html">Heavy Equipment Moving</a></li>
+                        <li><a href="crane-services.html">Crane Services</a></li>
+                        <li><a href="structural-steel-rigging.html">Structural Steel Rigging</a></li>
+                        <li><a href="plant-maintenance.html">Plant Maintenance Support</a></li>
+                        <li><a href="load-engineering.html">Load Engineering</a></li>
+                        <li><a href="material-handling.html">Material Handling</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Service Areas</h3>
+                    <ul>
+                        <li><a href="../locations/seattle-rigging-services.html">Seattle</a></li>
+                        <li><a href="../locations/tacoma-rigging-services.html">Tacoma</a></li>
+                        <li><a href="../locations/spokane-rigging-services.html">Spokane</a></li>
+                        <li><a href="../locations/bellevue-rigging-services.html">Bellevue</a></li>
+                        <li><a href="../locations/everett-rigging-services.html">Everett</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget" style="background: var(--concrete-gray);">
+                    <h3>Engineering Services</h3>
+                    <ul style="list-style: none; margin: 0; padding: 0;">
+                        <li style="border: none; padding: 15px 0;"><strong>Load Calculations</strong></li>
+                        <li style="border: none; padding: 15px 0;"><strong>CG Analysis</strong></li>
+                        <li style="border: none; padding: 15px 0;"><strong>Rigging Design</strong></li>
+                        <li style="border: none; padding: 15px 0;"><strong>3D Modeling</strong></li>
+                        <li style="border: none; padding: 15px 0;"><strong>Lift Plans</strong></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ALPHA RIGGING</h3>
+                <p style="color: var(--concrete-gray); margin-bottom: 20px;">
+                    Professional industrial rigging services for the metal and manufacturing industries across Washington State.
+                </p>
+                <p style="color: var(--concrete-gray);">
+                    <strong>Licensed & Insured</strong><br>
+                    WA Contractor License #12345<br>
+                    $5M Liability Coverage
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="heavy-equipment-moving.html">Heavy Equipment Moving</a></li>
+                    <li><a href="structural-steel-rigging.html">Structural Steel Rigging</a></li>
+                    <li><a href="crane-services.html">Crane Services</a></li>
+                    <li><a href="plant-maintenance.html">Plant Maintenance</a></li>
+                    <li><a href="load-engineering.html">Load Engineering</a></li>
+                    <li><a href="material-handling.html">Material Handling</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Service Areas</h3>
+                <ul>
+                    <li><a href="../locations/seattle-rigging-services.html">Seattle Rigging Services</a></li>
+                    <li><a href="../locations/tacoma-rigging-services.html">Tacoma Rigging Services</a></li>
+                    <li><a href="../locations/spokane-rigging-services.html">Spokane Rigging Services</a></li>
+                    <li><a href="../locations/bellevue-rigging-services.html">Bellevue Rigging Services</a></li>
+                    <li><a href="../index.html#areas">All Washington Cities</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="../index.html#why-us">Why Choose Us</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                    <li><a href="tel:+15095550100">Call: (509) 555-0100</a></li>
+                    <li><a href="tel:+15095550911">Emergency: (509) 555-0911</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Alpha Rigging. All rights reserved. | <a href="#" style="color: var(--primary-orange);">Privacy Policy</a> | <a href="#" style="color: var(--primary-orange);">Terms of Service</a></p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">Serving Seattle, Tacoma, Spokane, Bellevue, Everett, Vancouver, Yakima and all of Washington State with professional load engineering and lift planning services.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                this.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+            });
+        }
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', function(e) {
+                if (window.innerWidth <= 968) {
+                    e.preventDefault();
+                    const dropdown = this.parentElement;
+                    dropdown.classList.toggle('active');
+                }
+            });
+        });
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('nav') && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                if (mobileMenuToggle) {
+                    mobileMenuToggle.textContent = '☰';
+                }
+            }
+        });
+    </script>
+</body>
+</html>

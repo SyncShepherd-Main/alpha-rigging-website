@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Handling Solutions WA | Industrial Forklifts | Alpha Rigging</title>
+    <meta name="description" content="Professional material handling solutions across Washington State. Heavy-duty forklifts, jacking systems, air casters, machinery skates & transport solutions for manufacturing facilities. Efficient material movement up to 50,000 lbs capacity.">
+    <meta name="keywords" content="material handling Washington, industrial forklifts, heavy-duty forklift rental, air caster systems, machinery skates, jacking systems, material transport solutions WA">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Material Handling Solutions",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Alpha Rigging",
+        "telephone": "+1-509-555-0100",
+        "url": "https://www.alpharigging.com"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "Washington"
+      },
+      "description": "Professional material handling solutions including heavy-duty forklifts, air caster systems, machinery skates, jacking systems, and specialized transport equipment for manufacturing and industrial facilities.",
+      "offers": {
+        "@type": "Offer",
+        "priceRange": "$$"
+      }
+    }
+    </script>
+
+    <style>
+        :root { --primary-orange: #FF6B2C; --deep-charcoal: #1A1D23; --steel-gray: #4A5568; --bright-white: #FFFFFF; --concrete-gray: #E2E8F0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bright-white); color: var(--deep-charcoal); line-height: 1.7; }
+        nav { background: rgba(26, 29, 35, 0.95); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 1000; border-bottom: 2px solid var(--primary-orange); }
+        .nav-container { max-width: 1400px; margin: 0 auto; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; color: white; letter-spacing: 2px; text-decoration: none; }
+        .logo span { color: var(--primary-orange); }
+        .nav-links { display: flex; gap: 40px; list-style: none; }
+        .nav-links a { color: white; text-decoration: none; font-weight: 500; transition: color 0.3s ease; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; }
+        .nav-links a:hover { color: var(--primary-orange); }
+        .dropdown { position: relative; }
+        .dropdown-toggle { cursor: pointer; display: flex; align-items: center; gap: 5px; color: white; font-weight: 500; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; transition: color 0.3s ease; }
+        .dropdown-toggle:hover { color: var(--primary-orange); }
+        .dropdown-toggle::after { content: '▼'; font-size: 0.7rem; transition: transform 0.3s ease; }
+        .dropdown:hover .dropdown-toggle::after { transform: rotate(180deg); }
+        .dropdown-menu { position: absolute; top: 100%; left: 0; background: rgba(26, 29, 35, 0.98); min-width: 280px; padding: 20px 0; opacity: 0; visibility: hidden; transform: translateY(-10px); transition: all 0.3s ease; border-top: 2px solid var(--primary-orange); box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        .dropdown:hover .dropdown-menu { opacity: 1; visibility: visible; transform: translateY(0); }
+        .dropdown-menu a { display: block; padding: 12px 25px; color: white; text-decoration: none; font-size: 0.9rem; text-transform: none; transition: all 0.3s ease; border-left: 3px solid transparent; }
+        .dropdown-menu a:hover { background: rgba(255, 107, 44, 0.1); border-left-color: var(--primary-orange); padding-left: 30px; }
+        .mobile-menu-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+        .breadcrumb { max-width: 1400px; margin: 0 auto; padding: 20px 40px; color: var(--steel-gray); font-size: 0.9rem; }
+        .breadcrumb a { color: var(--steel-gray); text-decoration: none; }
+        .breadcrumb a:hover { color: var(--primary-orange); }
+        .hero-page { background: linear-gradient(135deg, var(--deep-charcoal) 0%, #2D3748 100%); color: white; padding: 80px 40px; position: relative; overflow: hidden; }
+        .hero-page::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(90deg, transparent, transparent 50px, rgba(255, 107, 44, 0.03) 50px, rgba(255, 107, 44, 0.03) 51px); pointer-events: none; }
+        .hero-content { max-width: 1400px; margin: 0 auto; position: relative; z-index: 1; }
+        .hero-badge { display: inline-block; background: var(--primary-orange); color: white; padding: 10px 20px; font-size: 0.85rem; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 20px; }
+        h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2.5rem, 6vw, 4.5rem); letter-spacing: 2px; margin-bottom: 20px; line-height: 1.1; }
+        .hero-subtitle { font-size: 1.3rem; opacity: 0.9; max-width: 800px; margin-bottom: 30px; }
+        .btn { display: inline-block; padding: 16px 35px; background: var(--primary-orange); color: white; text-decoration: none; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: all 0.3s ease; margin-right: 15px; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%); }
+        .btn:hover { background: #FF5212; transform: translateY(-2px); box-shadow: 0 10px 20px rgba(255, 107, 44, 0.3); }
+        .btn-secondary { background: transparent; border: 2px solid var(--primary-orange); }
+        .content-section { max-width: 1400px; margin: 0 auto; padding: 80px 40px; }
+        .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 60px; margin-top: 40px; }
+        .main-content h2 { font-family: 'Bebas Neue', sans-serif; font-size: 2.5rem; color: var(--deep-charcoal); margin: 40px 0 20px; letter-spacing: 1px; }
+        .main-content h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; color: var(--deep-charcoal); margin: 30px 0 15px; letter-spacing: 1px; }
+        .main-content h4 { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; color: var(--primary-orange); margin: 20px 0 10px; }
+        .main-content p { margin-bottom: 20px; font-size: 1.05rem; line-height: 1.8; }
+        .main-content ul { margin: 20px 0 20px 30px; }
+        .main-content li { margin-bottom: 12px; font-size: 1.05rem; }
+        .highlight-box { background: var(--concrete-gray); padding: 30px; border-left: 5px solid var(--primary-orange); margin: 30px 0; }
+        .equipment-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin: 30px 0; }
+        .equipment-card { background: white; border: 2px solid var(--concrete-gray); padding: 25px; transition: all 0.3s ease; clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%); }
+        .equipment-card:hover { border-color: var(--primary-orange); transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .equipment-card h4 { color: var(--primary-orange); margin-bottom: 10px; }
+        .sidebar { position: sticky; top: 100px; height: fit-content; }
+        .sidebar-widget { background: white; border: 2px solid var(--concrete-gray); padding: 30px; margin-bottom: 30px; }
+        .sidebar-widget h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 20px; letter-spacing: 1px; }
+        .sidebar-widget ul { list-style: none; }
+        .sidebar-widget li { padding: 12px 0; border-bottom: 1px solid var(--concrete-gray); }
+        .sidebar-widget li:last-child { border-bottom: none; }
+        .sidebar-widget a { color: var(--deep-charcoal); text-decoration: none; transition: color 0.3s ease; }
+        .sidebar-widget a:hover { color: var(--primary-orange); }
+        .cta-box { background: var(--primary-orange); color: white; padding: 30px; text-align: center; }
+        .cta-box h3 { font-family: 'Bebas Neue', sans-serif; font-size: 2rem; margin-bottom: 15px; }
+        .cta-box .btn { background: white; color: var(--primary-orange); margin-top: 15px; }
+        .faq-item { margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid var(--concrete-gray); }
+        .faq-question { font-weight: 600; font-size: 1.15rem; margin-bottom: 10px; color: var(--deep-charcoal); }
+        footer { background: var(--deep-charcoal); color: white; padding: 60px 40px 30px; }
+        .footer-content { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-bottom: 40px; }
+        .footer-section h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; margin-bottom: 20px; letter-spacing: 1px; }
+        .footer-section ul { list-style: none; }
+        .footer-section ul li { margin-bottom: 12px; }
+        .footer-section a { color: var(--concrete-gray); text-decoration: none; transition: color 0.3s ease; }
+        .footer-section a:hover { color: var(--primary-orange); }
+        .footer-bottom { text-align: center; padding-top: 30px; border-top: 1px solid rgba(255, 255, 255, 0.1); color: var(--concrete-gray); }
+        @media (max-width: 968px) {
+            .mobile-menu-toggle { display: block; }
+            .nav-links { position: fixed; top: 70px; left: -100%; width: 100%; background: rgba(26, 29, 35, 0.98); flex-direction: column; padding: 40px; gap: 0; transition: left 0.3s ease; max-height: calc(100vh - 70px); overflow-y: auto; }
+            .nav-links.active { left: 0; }
+            .nav-links li { width: 100%; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 15px 0; }
+            .dropdown-menu { position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none; border-top: none; padding: 10px 0 0 20px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+            .dropdown.active .dropdown-menu { max-height: 600px; }
+            .content-grid { grid-template-columns: 1fr; }
+            .sidebar { position: static; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="../index.html" class="logo">ALPHA <span>RIGGING</span></a>
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <span class="dropdown-toggle">Services</span>
+                    <div class="dropdown-menu">
+                        <a href="heavy-equipment-moving.html">Heavy Equipment Moving</a>
+                        <a href="crane-services.html">Crane Services</a>
+                        <a href="structural-steel-rigging.html">Structural Steel Rigging</a>
+                        <a href="plant-maintenance.html">Plant Maintenance Support</a>
+                        <a href="load-engineering.html">Load Engineering & Lift Planning</a>
+                        <a href="material-handling.html">Material Handling Solutions</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <span class="dropdown-toggle">Locations</span>
+                    <div class="dropdown-menu">
+                        <a href="../locations/seattle-rigging-services.html">Seattle</a>
+                        <a href="../locations/tacoma-rigging-services.html">Tacoma</a>
+                        <a href="../locations/spokane-rigging-services.html">Spokane</a>
+                        <a href="../locations/bellevue-rigging-services.html">Bellevue</a>
+                        <a href="../locations/everett-rigging-services.html">Everett</a>
+                        <a href="../locations/vancouver-rigging-services.html">Vancouver</a>
+                        <a href="../locations/yakima-rigging-services.html">Yakima</a>
+                        <a href="../locations/bellingham-rigging-services.html">Bellingham</a>
+                        <a href="../locations/olympia-rigging-services.html">Olympia</a>
+                        <a href="../locations/tri-cities-rigging-services.html">Tri-Cities</a>
+                        <a href="../locations/south-king-county-rigging-services.html">South King County</a>
+                        <a href="../locations/eastside-rigging-services.html">Eastside</a>
+                    </div>
+                </li>
+                <li><a href="../index.html#why-us">About</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb">
+        <a href="../index.html">Home</a> / <a href="../index.html#services">Services</a> / Material Handling Solutions
+    </div>
+
+    <section class="hero-page">
+        <div class="hero-content">
+            <div class="hero-badge">Efficient Material Movement</div>
+            <h1>Material Handling Solutions in Washington State</h1>
+            <p class="hero-subtitle">Professional material handling equipment and services for manufacturing facilities across Washington. Heavy-duty forklifts up to 50,000 lbs, air caster systems, machinery skates, jacking systems, and specialized transport solutions for efficient material movement.</p>
+            <a href="#contact" class="btn">Get Equipment Quote</a>
+            <a href="tel:+15095550100" class="btn btn-secondary">Call (509) 555-0100</a>
+        </div>
+    </section>
+
+    <div class="content-section">
+        <div class="content-grid">
+            <div class="main-content">
+                <h2>Professional Material Handling Solutions</h2>
+                <p>Efficient material handling is the backbone of productive manufacturing operations. Every time raw materials enter your facility, work-in-progress moves between workstations, or finished products travel to shipping—material handling either supports productivity or creates bottlenecks. Alpha Rigging provides material handling solutions that keep Washington manufacturers moving efficiently: heavy-duty forklifts, specialized transport equipment, and experienced operators who understand industrial environments.</p>
+
+                <p>With 25+ years supporting metal fabrication shops, manufacturing plants, and industrial facilities across Washington State, we've handled everything from delicate aerospace components to 50,000-pound steel coils. Our material handling services combine the right equipment with experienced operators and safety protocols that protect your people, products, and facility infrastructure.</p>
+
+                <div class="highlight-box">
+                    <h3>Material Handling: More Than Moving Stuff</h3>
+                    <p>Effective material handling reduces production time, minimizes product damage, improves workplace safety, optimizes space utilization, and reduces labor costs. Poor material handling creates bottlenecks, causes injuries, damages products, wastes floor space, and increases costs. The difference between these outcomes lies in having the right equipment and expertise.</p>
+                </div>
+
+                <h2>Our Material Handling Equipment Fleet</h2>
+
+                <div class="equipment-grid">
+                    <div class="equipment-card">
+                        <h4>Heavy-Duty Forklifts</h4>
+                        <p><strong>Capacity:</strong> 3,000 - 50,000 lbs<br>
+                        <strong>Types:</strong> Cushion tire, pneumatic tire, rough terrain<br>
+                        <strong>Features:</strong> Side-shift forks, boom attachments, specialized carriages</p>
+                    </div>
+
+                    <div class="equipment-card">
+                        <h4>Air Caster Systems</h4>
+                        <p><strong>Capacity:</strong> 2 - 100 tons<br>
+                        <strong>Function:</strong> Loads float on air film<br>
+                        <strong>Benefits:</strong> Precision positioning, floor-friendly, tight spaces</p>
+                    </div>
+
+                    <div class="equipment-card">
+                        <h4>Machinery Skates</h4>
+                        <p><strong>Capacity:</strong> 5 - 100 tons per skate<br>
+                        <strong>Types:</strong> Fixed rollers, steerable, turntable<br>
+                        <strong>Applications:</strong> Heavy equipment moves, long distances</p>
+                    </div>
+
+                    <div class="equipment-card">
+                        <h4>Hydraulic Jacking Systems</h4>
+                        <p><strong>Capacity:</strong> 10 - 500 tons<br>
+                        <strong>Types:</strong> Standard, low-profile, synchronized<br>
+                        <strong>Uses:</strong> Equipment lifting, leveling, positioning</p>
+                    </div>
+
+                    <div class="equipment-card">
+                        <h4>Pallet Jacks & Stackers</h4>
+                        <p><strong>Capacity:</strong> 2,000 - 10,000 lbs<br>
+                        <strong>Types:</strong> Manual, electric, high-lift<br>
+                        <strong>Ideal for:</strong> Warehouse operations, shipping/receiving</p>
+                    </div>
+
+                    <div class="equipment-card">
+                        <h4>Chain Falls & Hoists</h4>
+                        <p><strong>Capacity:</strong> 1/2 - 10 tons<br>
+                        <strong>Types:</strong> Manual chain, electric chain, wire rope<br>
+                        <strong>Applications:</strong> Overhead lifting, tight spaces</p>
+                    </div>
+
+                    <div class="equipment-card">
+                        <h4>Gantry Crane Systems</h4>
+                        <p><strong>Capacity:</strong> 2 - 50 tons<br>
+                        <strong>Types:</strong> Portable, adjustable height<br>
+                        <strong>Benefits:</strong> Indoor/outdoor use, no building structure needed</p>
+                    </div>
+
+                    <div class="equipment-card">
+                        <h4>Material Transport Carts</h4>
+                        <p><strong>Capacity:</strong> 500 - 20,000 lbs<br>
+                        <strong>Types:</strong> Platform carts, die carts, specialized<br>
+                        <strong>Features:</strong> Maneuverable, production floor friendly</p>
+                    </div>
+                </div>
+
+                <h2>Heavy-Duty Forklift Services</h2>
+
+                <h3>Exceptional Lift Capacity</h3>
+                <p>Standard warehouse forklifts top out at 5,000-8,000 pounds—inadequate for metal fabrication and heavy manufacturing. Alpha Rigging's heavy-duty forklift fleet includes:</p>
+
+                <ul>
+                    <li><strong>15,000 lb Pneumatic Forklifts:</strong> Ideal for steel plate, coils, and medium fabrications</li>
+                    <li><strong>25,000 lb Rigger Forklifts:</strong> Heavy structural steel, machinery components, large assemblies</li>
+                    <li><strong>35,000 lb Industrial Forklifts:</strong> Large equipment, heavy dies, bridge components</li>
+                    <li><strong>50,000 lb Capacity Forklifts:</strong> Extreme capacity for largest loads, specialized applications</li>
+                </ul>
+
+                <h3>Specialized Forklift Attachments</h3>
+                <p>The right attachment transforms a forklift into a specialized material handler:</p>
+
+                <ul>
+                    <li><strong>Boom Attachments:</strong> Extend reach for materials in racks, shipping containers, or elevated positions</li>
+                    <li><strong>Side-Shift Carriages:</strong> Precision positioning without repositioning the entire forklift</li>
+                    <li><strong>Fork Extensions:</strong> Handle extra-wide pallets or materials beyond standard fork width</li>
+                    <li><strong>Pipe & Bar Attachments:</strong> Secure handling of round stock, tubes, pipes, and long materials</li>
+                    <li><strong>Coil Rams:</strong> Specialized handling for steel coils—prevents damage and improves safety</li>
+                    <li><strong>Material Buckets:</strong> Bulk material handling, scrap collection, loose components</li>
+                </ul>
+
+                <h3>Experienced Forklift Operators</h3>
+                <p>Heavy forklifts in industrial environments require skilled operators. Our operators bring OSHA certification and ongoing safety training, years of experience in manufacturing environments, understanding of load balance and capacity limits, awareness of floor loading and structural constraints, and excellent spatial awareness for congested facilities. Operator skill often matters more than equipment capacity—we provide both.</p>
+
+                <h2>Air Caster Material Handling Systems</h2>
+
+                <h3>How Air Casters Work</h3>
+                <p>Air casters are specialized devices that use compressed air to create a thin film (typically 0.003-0.005 inches) between the load and floor surface. This air film allows loads weighing tons to float effortlessly, enabling one person to precisely position equipment that would otherwise require cranes or heavy machinery. Think of it as creating a temporary hovercraft for your equipment.</p>
+
+                <h3>When Air Casters Excel</h3>
+                <p>Air caster systems provide ideal solutions for specific material handling challenges:</p>
+
+                <ul>
+                    <li><strong>Precision Positioning:</strong> Installing equipment with tight tolerances where millimeter-level positioning is required</li>
+                    <li><strong>Floor Protection:</strong> Facilities with epoxy, polished concrete, or other surfaces requiring protection from traditional material handling</li>
+                    <li><strong>Tight Spaces:</strong> Congested production areas where traditional equipment can't maneuver effectively</li>
+                    <li><strong>Clean Environments:</strong> Facilities requiring contamination control—air casters produce no particulates or fluids</li>
+                    <li><strong>Low Overhead Clearance:</strong> Situations where standard material handling equipment height is problematic</li>
+                    <li><strong>Omnidirectional Movement:</strong> Applications requiring equipment to move in any direction, including rotation</li>
+                </ul>
+
+                <h3>Air Caster Limitations</h3>
+                <p>Air casters aren't universal solutions. They require relatively smooth, non-porous floors (sealed concrete, steel, or specialty surfaces), compressed air supply (100-125 PSI at adequate CFM), and level surfaces—air casters don't climb inclines effectively. We assess your facility and application to determine if air casters are appropriate or if alternative equipment is better suited.</p>
+
+                <h2>Machinery Skates & Rollers</h2>
+
+                <h3>Heavy-Duty Machinery Skates</h3>
+                <p>Machinery skates (also called machinery dollies or rollers) are the workhorses of heavy equipment movement. These robust devices use steel rollers to move loads across floors with minimal friction:</p>
+
+                <ul>
+                    <li><strong>Fixed Roller Skates:</strong> Straight-line movement, highest load capacity per skate (up to 100 tons)</li>
+                    <li><strong>Steerable Skates:</strong> Directional control using handle-guided steering mechanism</li>
+                    <li><strong>Turntable Skates:</strong> 360-degree rotation capability for changing direction</li>
+                    <li><strong>Low-Profile Skates:</strong> Minimal height for getting under equipment with limited clearance</li>
+                </ul>
+
+                <h3>Skate System Configuration</h3>
+                <p>Proper skate use requires understanding load distribution and configuration. We calculate load weight and center of gravity, determine required number of skates and placement, select skate capacity for load distribution, plan movement path accounting for floor conditions, and establish pushing/pulling methods and safety. Improper skate use causes accidents—we engineer the approach for safe results.</p>
+
+                <h3>When Machinery Skates Are Ideal</h3>
+                <p>Skates excel for moving extremely heavy loads without cranes, longer distance moves within facilities (100+ feet), situations where floor loading capacity allows concentrated loads, environments where air supply for air casters isn't available, and rough or imperfect floor surfaces where air casters won't function. Skates are proven technology—simple, robust, and effective when properly used.</p>
+
+                <h2>Jacking & Cribbing Systems</h2>
+
+                <h3>Hydraulic Jacking Systems</h3>
+                <p>Hydraulic jacks lift loads vertically for positioning, leveling, equipment installation, or temporary support. Our jacking systems include:</p>
+
+                <ul>
+                    <li><strong>Standard Hydraulic Jacks:</strong> 10-100 tons capacity, versatile general-purpose lifting</li>
+                    <li><strong>Low-Profile Jacks:</strong> 2-3 inch collapsed height for getting under equipment</li>
+                    <li><strong>Toe Jacks:</strong> Specialized jacks for lifting from the edge of loads</li>
+                    <li><strong>Synchronized Jacking Systems:</strong> Multiple jacks controlled simultaneously for even lifting</li>
+                </ul>
+
+                <h3>Proper Cribbing Practices</h3>
+                <p>Jacking without proper cribbing is extremely dangerous. As loads are lifted, we install engineered cribbing (hardwood timbers, steel blocking, or specialized cribbing systems) that safely supports the load if jacks fail. Our crews understand cribbing principles: calculating required cribbing capacity, ensuring cribbing is level and stable, building progressively as equipment is lifted, never relying solely on jacks for extended periods, and maintaining escape routes for personnel. Cribbing saves lives—we never compromise on this safety fundamental.</p>
+
+                <h2>Material Handling for Specific Industries</h2>
+
+                <h3>Metal Fabrication & Steel Service Centers</h3>
+                <p>Steel handling requires specialized equipment and expertise. We provide heavy-duty forklifts with coil rams for steel coils, spreader bars for plate handling to prevent bending, fork extensions for wide structural members, boom attachments for deep rack access, and trained operators understanding steel product characteristics. Steel is heavy, expensive, and damages easily—proper handling matters.</p>
+
+                <h3>Manufacturing Facilities</h3>
+                <p>Production environments demand material handling that supports workflow without creating bottlenecks. Our services include moving raw materials from receiving to production, handling work-in-progress between workstations, positioning components for assembly operations, transporting finished products to shipping, and supporting line changes and equipment modifications. We understand manufacturing rhythm and work efficiently without disrupting production.</p>
+
+                <h3>Warehousing & Distribution</h3>
+                <p>Efficient warehouse operations require appropriate material handling: pallet jacks and forklifts for receiving and shipping, high-lift equipment for maximizing vertical storage, specialized attachments for diverse product types, trained operators maximizing throughput, and safety protocols in active environments. We help warehouses move more product safely and efficiently.</p>
+
+                <h3>Construction & Infrastructure</h3>
+                <p>Construction sites present unique material handling challenges: rough terrain forklifts for unimproved surfaces, all-terrain capabilities for gravel and mud, boom attachments for placing materials at elevation, compact equipment maneuvering in congested sites, and operators experienced with construction environments. We bring warehouse-quality material handling to construction sites.</p>
+
+                <h2>Material Handling Safety</h2>
+                <p>Material handling accidents cause thousands of injuries annually—forklifts striking pedestrians, loads falling, equipment tipping, and pinch points. Alpha Rigging addresses these hazards systematically:</p>
+
+                <ul>
+                    <li><strong>Operator Certification:</strong> All forklift operators maintain current OSHA certification with annual refresher training</li>
+                    <li><strong>Equipment Inspection:</strong> Daily pre-operational inspections per OSHA requirements with maintenance logs documenting compliance</li>
+                    <li><strong>Load Capacity:</strong> Never exceeding equipment ratings—we verify load weights and equipment capacity matches</li>
+                    <li><strong>Travel Safety:</strong> Speed limits, horn use at intersections, clear visibility, and seat belt use</li>
+                    <li><strong>Load Security:</strong> Proper load positioning, securing unstable loads, maintaining clear sightlines</li>
+                    <li><strong>Pedestrian Protection:</strong> Designated traffic lanes, exclusion zones, audible warnings, and communication protocols</li>
+                    <li><strong>Floor Conditions:</strong> Assessing floor capacity, identifying hazards (cracks, spills, slopes), and marking unsafe areas</li>
+                </ul>
+
+                <h2>Frequently Asked Questions</h2>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: What's the largest capacity forklift you have?</div>
+                    <p>A: Our fleet includes forklifts up to 50,000 lbs (25 ton) capacity. For loads exceeding forklift capacity, we transition to overhead cranes, gantry systems, or specialized rigging equipment. We'll assess your load and recommend the appropriate equipment—sometimes a smaller forklift with proper attachments outperforms larger equipment.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Can you provide material handling equipment without operators?</div>
+                    <p>A: Yes, we offer bare equipment rental to qualified customers with certified operators. Requirements include proof of operator OSHA certification, appropriate insurance coverage, and signed rental agreement acknowledging responsibility. Most customers prefer our operated service for liability protection and operator expertise—especially for specialized equipment.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: How do you determine if our floors can handle heavy forklifts?</div>
+                    <p>A: Floor loading depends on slab thickness, reinforcement, soil conditions, and condition. We can review existing floor specifications if available. For uncertain situations, we may recommend geotechnical evaluation. Generally, 6-8 inch reinforced concrete handles standard forklifts; heavy equipment may require thicker slabs or distribution plates. We're conservative—floor failures are catastrophic.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: What's better for moving heavy equipment—air casters or machinery skates?</div>
+                    <p>A: Depends on your specific situation. Air casters excel when: floors must be protected, precision positioning is critical, space is tight, or overhead clearance is limited. Machinery skates excel when: loads are extremely heavy (50+ tons), air supply is unavailable, floors are imperfect or rough, or longer distances are involved. We assess your application and recommend optimal equipment.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Can you provide long-term material handling support?</div>
+                    <p>A: Yes. Many facilities establish ongoing relationships for regular material handling needs, scheduled weekly or monthly visits, on-call service with priority response, or equipment rental agreements with operated service as needed. Long-term arrangements provide equipment availability, consistent operators familiar with your facility, and preferred pricing. We become extension of your team.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Do you handle hazardous materials?</div>
+                    <p>A: We handle many materials classified as hazardous, but requirements vary greatly by specific material classification. We need to know: DOT hazard class and division, packaging and containment, facility hazcom program and procedures, and any special equipment or training required. Some materials require specialized equipment or certifications—we'll assess requirements and determine if we can support safely and legally.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: How far in advance should we schedule material handling equipment?</div>
+                    <p>A: For standard equipment (forklifts, pallet jacks, basic material handling): 3-5 business days typically ensures availability. For specialized equipment (air casters, large capacity forklifts, synchronized jacking systems): 1-2 weeks preferred. Emergency response available 24/7 with typical mobilization within 4-8 hours depending on location and equipment type.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Can you train our employees to use material handling equipment?</div>
+                    <p>A: While our primary business is providing equipment and operators, we can recommend qualified training providers for OSHA-compliant forklift certification, aerial lift certification, and rigging training. Washington State has specific requirements for operator training—we ensure recommendations meet regulatory standards.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: What if our building has restricted access (tight doors, low ceilings)?</div>
+                    <p>A: Access challenges are common in existing facilities. We address these with compact equipment that fits through standard doors, boom attachments reaching over obstructions, low-profile equipment for minimal overhead clearance, creative rigging solutions for difficult situations, and site assessment before mobilization to ensure equipment fits. Measure twice, mobilize once—we verify access before bringing equipment.</p>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">Q: Do you provide material handling for outdoor/construction sites?</div>
+                    <p>A: Yes. We have rough terrain forklifts and all-terrain equipment for unimproved surfaces, larger tires for soft ground and gravel, equipment comfortable in outdoor conditions, and operators experienced with construction environments. Construction material handling differs from warehouse work—our crews understand these differences and adapt accordingly.</p>
+                </div>
+
+                <h2>Service Areas: Material Handling Across Washington</h2>
+                <p>Alpha Rigging provides material handling equipment and services throughout Washington State, including:</p>
+
+                <ul style="columns: 3; column-gap: 40px;">
+                    <li>Seattle</li>
+                    <li>Tacoma</li>
+                    <li>Spokane</li>
+                    <li>Bellevue</li>
+                    <li>Everett</li>
+                    <li>Vancouver</li>
+                    <li>Yakima</li>
+                    <li>Bellingham</li>
+                    <li>Olympia</li>
+                    <li>Renton</li>
+                    <li>Kent</li>
+                    <li>Auburn</li>
+                    <li>Federal Way</li>
+                    <li>Pasco</li>
+                    <li>Richland</li>
+                    <li>Kennewick</li>
+                    <li>Redmond</li>
+                    <li>Kirkland</li>
+                    <li>Wenatchee</li>
+                    <li>Walla Walla</li>
+                    <li>Moses Lake</li>
+                    <li>Longview</li>
+                </ul>
+
+                <p>We serve manufacturing facilities, fabrication shops, warehouses, and industrial operations across the entire Pacific Northwest region.</p>
+
+                <div class="highlight-box" style="margin-top: 40px;">
+                    <h3>Need Material Handling Solutions?</h3>
+                    <p>Contact Alpha Rigging today for professional material handling equipment and services. From heavy-duty forklifts to specialized transport systems, we have the equipment and expertise to keep your operation moving efficiently.</p>
+                    <a href="tel:+15095550100" class="btn" style="margin-top: 20px;">Call (509) 555-0100</a>
+                    <a href="#contact" class="btn btn-secondary" style="margin-top: 20px;">Request Equipment Quote</a>
+                </div>
+            </div>
+
+            <aside class="sidebar">
+                <div class="sidebar-widget cta-box">
+                    <h3>Equipment Available</h3>
+                    <p>Heavy-duty forklifts to 50K lbs. Air casters. Jacking systems.</p>
+                    <a href="tel:+15095550100" class="btn">Call (509) 555-0100</a>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="heavy-equipment-moving.html">Heavy Equipment Moving</a></li>
+                        <li><a href="crane-services.html">Crane Services</a></li>
+                        <li><a href="structural-steel-rigging.html">Structural Steel Rigging</a></li>
+                        <li><a href="plant-maintenance.html">Plant Maintenance Support</a></li>
+                        <li><a href="load-engineering.html">Load Engineering</a></li>
+                        <li><a href="material-handling.html">Material Handling</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3>Service Areas</h3>
+                    <ul>
+                        <li><a href="../locations/seattle-rigging-services.html">Seattle</a></li>
+                        <li><a href="../locations/tacoma-rigging-services.html">Tacoma</a></li>
+                        <li><a href="../locations/spokane-rigging-services.html">Spokane</a></li>
+                        <li><a href="../locations/bellevue-rigging-services.html">Bellevue</a></li>
+                        <li><a href="../locations/everett-rigging-services.html">Everett</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget" style="background: var(--concrete-gray);">
+                    <h3>Equipment Fleet</h3>
+                    <ul style="list-style: none; margin: 0; padding: 0;">
+                        <li style="border: none; padding: 15px 0;"><strong>Forklifts:</strong> Up to 50K lbs</li>
+                        <li style="border: none; padding: 15px 0;"><strong>Air Casters:</strong> 2-100 tons</li>
+                        <li style="border: none; padding: 15px 0;"><strong>Jacks:</strong> 10-500 tons</li>
+                        <li style="border: none; padding: 15px 0;"><strong>Skates:</strong> 5-100 tons</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ALPHA RIGGING</h3>
+                <p style="color: var(--concrete-gray); margin-bottom: 20px;">
+                    Professional industrial rigging services for the metal and manufacturing industries across Washington State.
+                </p>
+                <p style="color: var(--concrete-gray);">
+                    <strong>Licensed & Insured</strong><br>
+                    WA Contractor License #12345<br>
+                    $5M Liability Coverage
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="heavy-equipment-moving.html">Heavy Equipment Moving</a></li>
+                    <li><a href="structural-steel-rigging.html">Structural Steel Rigging</a></li>
+                    <li><a href="crane-services.html">Crane Services</a></li>
+                    <li><a href="plant-maintenance.html">Plant Maintenance</a></li>
+                    <li><a href="load-engineering.html">Load Engineering</a></li>
+                    <li><a href="material-handling.html">Material Handling</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Service Areas</h3>
+                <ul>
+                    <li><a href="../locations/seattle-rigging-services.html">Seattle Rigging Services</a></li>
+                    <li><a href="../locations/tacoma-rigging-services.html">Tacoma Rigging Services</a></li>
+                    <li><a href="../locations/spokane-rigging-services.html">Spokane Rigging Services</a></li>
+                    <li><a href="../locations/bellevue-rigging-services.html">Bellevue Rigging Services</a></li>
+                    <li><a href="../index.html#areas">All Washington Cities</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="../index.html#why-us">Why Choose Us</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                    <li><a href="tel:+15095550100">Call: (509) 555-0100</a></li>
+                    <li><a href="tel:+15095550911">Emergency: (509) 555-0911</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Alpha Rigging. All rights reserved. | <a href="#" style="color: var(--primary-orange);">Privacy Policy</a> | <a href="#" style="color: var(--primary-orange);">Terms of Service</a></p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">Serving Seattle, Tacoma, Spokane, Bellevue, Everett, Vancouver, Yakima and all of Washington State with professional material handling solutions.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                this.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+            });
+        }
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', function(e) {
+                if (window.innerWidth <= 968) {
+                    e.preventDefault();
+                    const dropdown = this.parentElement;
+                    dropdown.classList.toggle('active');
+                }
+            });
+        });
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('nav') && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                if (mobileMenuToggle) {
+                    mobileMenuToggle.textContent = '☰';
+                }
+            }
+        });
+    </script>
+</body>
+</html>
