@@ -1,4 +1,14 @@
-# PNW Rigging Solutions - Complete Website Package
+# Alpha Rigging - Professional Industrial Rigging Services
+
+> **Internal mockup for team review - Not for public distribution**
+
+[![Live Demo](https://img.shields.io/badge/Demo-Live-success.svg)](https://syncshepherd-main.github.io/alpha-rigging-website/)
+
+## 🌐 Live Demo
+
+**View Site:** [https://syncshepherd-main.github.io/alpha-rigging-website/](https://syncshepherd-main.github.io/alpha-rigging-website/)
+
+---
 
 ## 🎯 Overview
 
@@ -291,4 +301,18 @@ This website package is provided for your business use. Modify as needed.
 
 ---
 
-**Ready to dominate Washington State rigging search results!** 🚀
+## 📌 Notes
+
+- This is the initial mockup for Alpha Rigging
+- Designed for internal review and client evaluation
+- Not for public distribution or replication
+- All content and structure subject to revision based on client feedback
+- Contact information and images are placeholders
+
+---
+
+**📅 Last Updated:** February 16, 2026
+**🏗️ Status:** Ready for Client Review
+**🌐 Live URL:** [https://syncshepherd-main.github.io/alpha-rigging-website/](https://syncshepherd-main.github.io/alpha-rigging-website/)
+
+*For team and client review purposes only. Not for public distribution or replication.*
