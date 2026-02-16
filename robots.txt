@@ -1,0 +1,28 @@
+# robots.txt for PNW Rigging Solutions Website
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://www.pnwrigging.com/sitemap.xml
+
+# Disallow crawling of admin/private areas (if added later)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow all bots to access CSS and JS
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Block bad bots (optional - add more as needed)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /

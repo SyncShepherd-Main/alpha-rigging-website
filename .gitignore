@@ -1,0 +1,65 @@
+# PNW Rigging Website - Git Ignore File
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary Files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Build Files (if you add build process later)
+dist/
+build/
+.cache/
+
+# Environment Files (if you add backend)
+.env
+.env.local
+.env.production
+.env.development
+
+# Dependencies (if you add npm later)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Backup Files
+*.bak
+*.backup
+*-backup.html
+
+# Testing
+coverage/
+.nyc_output/
+
+# Optional: Uncomment if you want to ignore large image files during development
+# assets/images/*.jpg
+# assets/images/*.png
+# assets/images/*.gif
+
+# Optional: Documentation drafts
+# docs/drafts/
