@@ -154,7 +154,7 @@ This guide provides templates and instructions for generating the remaining SEO-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rigging Services [City] WA | Heavy Equipment Moving | PNW Rigging</title>
-    <meta name="description" content="Professional rigging services in [City], Washington. Heavy equipment moving, crane services, industrial rigging. Serving [City] metro with 24/7 emergency response.">
+    <meta name="description" content="Professional rigging services in [City], Washington. Heavy equipment moving, crane services, industrial rigging. Serving [City] metro with 24/6 emergency response.">
     
     <!-- LocalBusiness Schema -->
     <script type="application/ld+json">
@@ -263,7 +263,7 @@ H2: [City] Project Showcase
 
 **Section 8: Emergency Services (100 words)**
 ```
-H2: 24/7 Emergency Rigging in [City]
+H2: 24/6 Emergency Rigging in [City]
 
 - Emergency response capability
 - Typical response time
@@ -424,7 +424,7 @@ Use this checklist for every page created:
 - Manufacturing equipment
 - Safety record
 - Emergency services
-- 24/7 availability
+- 24/6 availability
 
 **For Service Pages:**
 - Equipment capacity
@@ -481,7 +481,7 @@ Use this checklist for every page created:
 - Expert, professional, certified, licensed
 - Precision, accuracy, careful, methodical
 - Safe, safety, zero incidents, perfect record
-- Fast, rapid, quick response, 24/7
+- Fast, rapid, quick response, 24/6
 - Experienced, proven, established, trusted
 
 ### Avoid:

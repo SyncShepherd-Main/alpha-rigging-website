@@ -21,7 +21,7 @@
    - Service Area: Add all WA cities (Seattle, Tacoma, Spokane, etc.)
    - Phone: Business phone with local area code
    - Website: Link to homepage
-   - Hours: Mon-Fri 7AM-6PM, note 24/7 emergency
+   - Hours: Mon-Fri 7AM-6PM, note 24/6 emergency
    - Attributes: 
      - Veteran-owned (if applicable)
      - LGBTQ+ friendly
@@ -29,7 +29,7 @@
    
 3. **Optimize Description** (750 characters):
    ```
-   PNW Rigging Solutions provides professional industrial rigging services across Washington State. Our OSHA-certified riggers specialize in heavy equipment moving, crane services, and structural steel rigging for metal fabrication shops, manufacturing facilities, and heavy industry. With 15+ years of experience and a perfect safety record, we offer 24/7 emergency service, load engineering, and plant maintenance support. Serving Seattle, Tacoma, Spokane, Bellevue, and all WA cities. Call (509) 555-0100 for expert rigging solutions.
+   PNW Rigging Solutions provides professional industrial rigging services across Washington State. Our OSHA-certified riggers specialize in heavy equipment moving, crane services, and structural steel rigging for metal fabrication shops, manufacturing facilities, and heavy industry. With 15+ years of experience and a perfect safety record, we offer 24/6 emergency service, load engineering, and plant maintenance support. Serving Seattle, Tacoma, Spokane, Bellevue, and all WA cities. Call (509) 555-0100 for expert rigging solutions.
    ```
 
 4. **Upload Photos** (Minimum 20):
@@ -47,7 +47,7 @@
    - Plant Maintenance Support ($$$)
    - Load Engineering ($$$)
    - Material Handling ($$$)
-   - 24/7 Emergency Rigging ($$$)
+   - 24/6 Emergency Rigging ($$$)
 
 6. **Enable Messaging**
    - Turn on instant messaging
@@ -78,22 +78,22 @@ Homepage: "Industrial Rigging Services Washington State | PNW Rigging Solutions 
 
 Service Pages:
 - "Heavy Equipment Moving Services WA | Industrial Machinery Rigging | PNW Rigging"
-- "Crane Services Washington | NCCCO Certified Operators | 24/7 Emergency"
+- "Crane Services Washington | NCCCO Certified Operators | 24/6 Emergency"
 - "Structural Steel Rigging Services | Metal Fabrication Support | Seattle-Tacoma"
 
 Location Pages:
 - "Rigging Services Seattle WA | Heavy Equipment Moving | OSHA Certified"
-- "Tacoma Industrial Rigging | Crane & Machinery Moving Services | 24/7"
+- "Tacoma Industrial Rigging | Crane & Machinery Moving Services | 24/6"
 - "Spokane Rigging Company | Heavy Lift & Equipment Moving | Licensed"
 ```
 
 #### B. Meta Descriptions (155-160 characters)
 ```html
-Homepage: "Professional industrial rigging services across Washington State. OSHA-certified riggers specializing in heavy equipment moving, crane services & metal fabrication support. 24/7 emergency service. Call now!"
+Homepage: "Professional industrial rigging services across Washington State. OSHA-certified riggers specializing in heavy equipment moving, crane services & metal fabrication support. 24/6 emergency service. Call now!"
 
 Service Pages:
 - Heavy Equipment: "Expert heavy equipment moving & machinery installation in WA. Precision rigging for manufacturing plants, metal shops & industrial facilities. Free quotes. Call (509) 555-0100."
-- Crane Services: "Professional crane services with NCCCO certified operators. Cranes 3-500 tons available across Washington. Pre-lift planning & engineering. 24/7 emergency response."
+- Crane Services: "Professional crane services with NCCCO certified operators. Cranes 3-500 tons available across Washington. Pre-lift planning & engineering. 24/6 emergency response."
 ```
 
 #### C. H1 Tags (One per page, keyword-rich)
@@ -414,7 +414,7 @@ Detailed description of each service with local context
 - Regional relationships
 
 ### Emergency Services in [City] (150 words)
-- 24/7 availability
+- 24/6 availability
 - Response time
 - Emergency contact
 

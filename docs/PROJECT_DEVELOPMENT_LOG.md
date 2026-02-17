@@ -50,7 +50,7 @@
 
 **Key Sections:**
 - Hero section with company tagline and CTA
-- Stats bar (1,500+ projects, 24/7 service, 100% safety record, 15+ years)
+- Stats bar (1,500+ projects, 24/6 service, 100% safety record, 15+ years)
 - Services grid (6 core services)
 - Why Choose Us section (OSHA certified, zero incidents, metal industry experts)
 - Service areas grid (18 Washington cities)
@@ -99,7 +99,7 @@
 - Scheduled and emergency rigging services
 - Shutdown and turnaround support
 - Component replacement
-- 24/7 emergency breakdown service
+- 24/6 emergency breakdown service
 
 #### E. Load Engineering & Lift Planning (`services/load-engineering.html`)
 **Target Keywords:** load engineering, lift planning, center of gravity analysis
@@ -667,7 +667,7 @@ sed -i 's/#1A1D23/#000000/gi' *.html services/*.html locations/*.html
 
 **Long-Tail Keywords:**
 - Owner operated rigging company Chehalis
-- 24/7 emergency rigging services Washington
+- 24/6 emergency rigging services Washington
 - OSHA certified riggers Seattle
 - Machinery moving [specific industries]
 - Plant maintenance rigging support

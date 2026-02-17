@@ -28,7 +28,7 @@ This document provides a comprehensive competitive analysis of the industrial ri
 #### 3. **West Coast Wire Rope & Rigging (WCWR)**
 - **Locations**: Multiple West Coast locations (4 facilities in 3 states)
 - **URL**: wcwr.com
-- **Services**: Wire rope, rigging fabrication, custom assemblies, testing (up to 1.2M lbs capacity), 24/7 emergency service
+- **Services**: Wire rope, rigging fabrication, custom assemblies, testing (up to 1.2M lbs capacity), 24/6 emergency service
 - **Strengths**: 60+ years in business, extensive fabrication facilities, pull test beds at all locations
 - **Market Position**: Leader in rigging fabrication and supplies
 - **SEO Weaknesses**: Product-focused rather than service-focused content, limited local landing pages
@@ -164,7 +164,7 @@ This document provides a comprehensive competitive analysis of the industrial ri
 5. `press relocation services` (20-40/mo)
 
 **Tier 5 - Emergency & Specialized:**
-1. `24/7 emergency rigging services` (100-200/mo)
+1. `24/6 emergency rigging services` (100-200/mo)
 2. `load engineering services` (50-100/mo)
 3. `complex lift planning` (30-60/mo)
 
@@ -377,7 +377,7 @@ This document provides a comprehensive competitive analysis of the industrial ri
    - Transparent pricing
    - Detailed project planning
    - Minimal disruption to operations
-   - 24/7 emergency availability
+   - 24/6 emergency availability
 
 ---
 
