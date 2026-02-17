@@ -416,10 +416,16 @@
         }
 
         /* Section Styles */
-        section:not(.hero):not(.cta-section):not(.contact-section) {
+        section:not(.hero):not(.cta-section):not(.contact-section):not(.why-us-section) {
             padding: 100px 40px;
             max-width: 1400px;
             margin: 0 auto;
+        }
+
+        /* Why Us Section - Full Width */
+        .why-us-section {
+            background: var(--concrete-gray);
+            padding: 100px 40px;
         }
         
         .section-header {
@@ -1064,7 +1070,7 @@
     </section>
 
     <!-- Why Choose Us -->
-    <section id="why-us" style="background: var(--concrete-gray);">
+    <section id="why-us" class="why-us-section">
         <div class="section-header">
             <div class="section-badge">Our Advantage</div>
             <h2 class="section-title">Why Metal Industry Leaders Choose Us</h2>
