@@ -12,17 +12,29 @@
 
 ## 🎯 Overview
 
-This is a complete, SEO-optimized website for a professional industrial rigging company serving Washington State. The site is designed to rank first in search results for industrial rigging, heavy equipment moving, and crane services across the Pacific Northwest.
+This is a complete, SEO-optimized website for a professional industrial rigging company serving Washington State. The site is designed to rank first in search results for industrial rigging, heavy equipment moving, and structural steel rigging across the Pacific Northwest.
+
+## 📝 Recent Updates (2026-02-17)
+
+**Major changes - see [CHANGELOG.md](CHANGELOG.md) and [UPDATES-2026-02-17.md](UPDATES-2026-02-17.md) for full details:**
+- ✅ **Removed crane services** - Deleted page and all references (not a primary service)
+- ✅ **Updated to 24/6 availability** - Company not open Saturdays (was incorrectly showing 24/7)
+- ✅ **Created contact page** - New dedicated contact.html with full form
+- ✅ **Updated all navigation** - Site-wide updates to links and CTAs
 
 ## 📁 Directory Structure
 
 ```
 pnw-rigging-website-complete/
 ├── index.html                          # Homepage
+├── about.html                          # About page
+├── contact.html                        # Contact page (NEW - 2026-02-17)
 ├── services/                           # Service pages
 │   ├── heavy-equipment-moving.html
-│   ├── crane-services.html
-│   └── [4 more service pages needed]
+│   ├── structural-steel-rigging.html
+│   ├── plant-maintenance.html
+│   ├── load-engineering.html
+│   └── material-handling.html
 ├── locations/                          # Location pages
 │   ├── seattle-rigging-services.html
 │   └── [11 more location pages needed]
