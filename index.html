@@ -130,6 +130,8 @@
             position: relative;
             overflow: hidden;
             width: 100%;
+            max-width: none;
+            margin: 0;
         }
         
         .hero::before {
@@ -251,11 +253,13 @@
         /* Stats Bar */
         .stats-bar {
             background: var(--primary-orange);
-            padding: 40px 40px;
+            padding: 40px;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 40px;
             clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
+            width: 100%;
+            max-width: none;
         }
         
         .stat {
