@@ -1,4 +1,4 @@
-# PNW Rigging Website - Complete File Manifest
+# Alpha Rigging Website - Complete File Manifest
 
 ## Package Contents
 
@@ -39,7 +39,7 @@ This package contains everything needed to deploy a professional, SEO-optimized 
 
 ### Directory Structure
 ```
-pnw-rigging-website-complete/
+alpha-rigging-website-complete/
 ├── index.html                          (Homepage)
 ├── robots.txt                          (SEO crawler config)
 ├── sitemap.xml                         (Search engine sitemap)

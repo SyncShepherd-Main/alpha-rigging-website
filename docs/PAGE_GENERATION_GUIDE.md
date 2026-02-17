@@ -36,7 +36,7 @@ This guide provides templates and instructions for generating the remaining SEO-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Service Name] Services WA | [Secondary Keyword] | PNW Rigging</title>
+    <title>[Service Name] Services WA | [Secondary Keyword] | Alpha Rigging</title>
     <meta name="description" content="[150-160 character description with primary keyword, location, and CTA]">
     <meta name="keywords" content="[5-8 relevant keywords]">
     
@@ -48,7 +48,7 @@ This guide provides templates and instructions for generating the remaining SEO-
       "serviceType": "[Service Name]",
       "provider": {
         "@type": "LocalBusiness",
-        "name": "PNW Rigging Solutions",
+        "name": "Alpha Rigging",
         "telephone": "+1-509-555-0100"
       },
       "areaServed": {
@@ -153,7 +153,7 @@ This guide provides templates and instructions for generating the remaining SEO-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rigging Services [City] WA | Heavy Equipment Moving | PNW Rigging</title>
+    <title>Rigging Services [City] WA | Heavy Equipment Moving | Alpha Rigging</title>
     <meta name="description" content="Professional rigging services in [City], Washington. Heavy equipment moving, crane services, industrial rigging. Serving [City] metro with 24/6 emergency response.">
     
     <!-- LocalBusiness Schema -->
@@ -161,7 +161,7 @@ This guide provides templates and instructions for generating the remaining SEO-
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "PNW Rigging Solutions - [City]",
+      "name": "Alpha Rigging - [City]",
       "telephone": "+1-[Local-Area-Code]-555-0100",
       "address": {
         "@type": "PostalAddress",
@@ -462,9 +462,9 @@ Use this checklist for every page created:
 ### Anchor Text Variety:
 - Exact match: "crane services" (20%)
 - Partial match: "our crane services in Seattle" (30%)
-- Branded: "PNW Rigging Solutions" (20%)
+- Branded: "Alpha Rigging" (20%)
 - Generic: "learn more", "click here" (10%)
-- Naked URLs: "pnwrigging.com/services" (20%)
+- Naked URLs: "alpharigginginc.com/services" (20%)
 
 ---
 

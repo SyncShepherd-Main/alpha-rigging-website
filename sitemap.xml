@@ -3,7 +3,7 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://www.pnwrigging.com/</loc>
+    <loc>https://www.alpharigginginc.com/</loc>
     <lastmod>2026-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- About Page -->
   <url>
-    <loc>https://www.pnwrigging.com/about.html</loc>
+    <loc>https://www.alpharigginginc.com/about.html</loc>
     <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -19,7 +19,7 @@
 
   <!-- Contact Page -->
   <url>
-    <loc>https://www.pnwrigging.com/contact.html</loc>
+    <loc>https://www.alpharigginginc.com/contact.html</loc>
     <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -27,7 +27,7 @@
 
   <!-- Service Pages -->
   <url>
-    <loc>https://www.pnwrigging.com/services/heavy-equipment-moving.html</loc>
+    <loc>https://www.alpharigginginc.com/services/heavy-equipment-moving.html</loc>
     <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -35,7 +35,7 @@
 
   <!-- Add remaining service pages as you create them -->
   <!-- <url>
-    <loc>https://www.pnwrigging.com/services/structural-steel-rigging.html</loc>
+    <loc>https://www.alpharigginginc.com/services/structural-steel-rigging.html</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -43,7 +43,7 @@
   
   <!-- Location Pages -->
   <url>
-    <loc>https://www.pnwrigging.com/locations/seattle-rigging-services.html</loc>
+    <loc>https://www.alpharigginginc.com/locations/seattle-rigging-services.html</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -51,7 +51,7 @@
   
   <!-- Add remaining location pages as you create them -->
   <!-- <url>
-    <loc>https://www.pnwrigging.com/locations/tacoma-rigging-services.html</loc>
+    <loc>https://www.alpharigginginc.com/locations/tacoma-rigging-services.html</loc>
     <lastmod>2026-02-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -61,7 +61,7 @@
 
 <!-- 
 INSTRUCTIONS:
-1. Replace www.pnwrigging.com with your actual domain
+1. Replace www.alpharigginginc.com with your actual domain
 2. Uncomment and add URLs as you create new pages
 3. Update lastmod dates when you update pages
 4. Submit this sitemap to Google Search Console and Bing Webmaster Tools

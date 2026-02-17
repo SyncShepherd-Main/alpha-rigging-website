@@ -1,10 +1,10 @@
-# robots.txt for PNW Rigging Solutions Website
+# robots.txt for Alpha Rigging Website
 
 User-agent: *
 Allow: /
 
 # Sitemap location (update with your actual domain)
-Sitemap: https://www.pnwrigging.com/sitemap.xml
+Sitemap: https://www.alpharigginginc.com/sitemap.xml
 
 # Disallow crawling of admin/private areas (if added later)
 # Disallow: /admin/

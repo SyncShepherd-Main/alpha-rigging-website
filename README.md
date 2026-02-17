@@ -25,7 +25,7 @@ This is a complete, SEO-optimized website for a professional industrial rigging 
 ## 📁 Directory Structure
 
 ```
-pnw-rigging-website-complete/
+alpha-rigging-website-complete/
 ├── index.html                          # Homepage
 ├── about.html                          # About page
 ├── contact.html                        # Contact page (NEW - 2026-02-17)
@@ -55,19 +55,19 @@ pnw-rigging-website-complete/
 
 1. **Initialize Git repository:**
 ```bash
-cd pnw-rigging-website-complete
+cd alpha-rigging-website-complete
 git init
 git add .
-git commit -m "Initial commit: PNW Rigging website"
+git commit -m "Initial commit: Alpha Rigging website"
 ```
 
 2. **Create GitHub repository and push:**
 ```bash
 # Create a new repository on GitHub (via web or gh CLI)
-gh repo create pnw-rigging-website --public --source=. --push
+gh repo create alpha-rigging-website --public --source=. --push
 
 # Or manually:
-git remote add origin https://github.com/YOUR-USERNAME/pnw-rigging-website.git
+git remote add origin https://github.com/YOUR-USERNAME/alpha-rigging-website.git
 git branch -M main
 git push -u origin main
 ```
@@ -78,13 +78,13 @@ git push -u origin main
    - Branch: main / (root)
    - Save
 
-Your site will be live at: `https://YOUR-USERNAME.github.io/pnw-rigging-website/`
+Your site will be live at: `https://YOUR-USERNAME.github.io/alpha-rigging-website/`
 
 ### Option 2: Using GitHub Desktop
 
 1. Open GitHub Desktop
 2. File → Add Local Repository
-3. Choose the `pnw-rigging-website-complete` folder
+3. Choose the `alpha-rigging-website-complete` folder
 4. Publish repository to GitHub
 5. Enable GitHub Pages in repository settings
 
@@ -124,7 +124,7 @@ Your site will be live at: `https://YOUR-USERNAME.github.io/pnw-rigging-website/
 
 1. **Update Contact Information:**
    - Search and replace `(509) 555-0100` with real phone number
-   - Update `info@pnwrigging.com` with real email
+   - Update `info@alpharigginginc.com` with real email
    - Update address in footer and schema markup
 
 2. **Add Real Business Details:**

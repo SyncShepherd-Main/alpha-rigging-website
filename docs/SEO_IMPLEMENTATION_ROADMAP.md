@@ -10,7 +10,7 @@
 
 #### Setup Steps:
 1. **Claim/Create GBP Listing**
-   - Business Name: PNW Rigging Solutions
+   - Business Name: Alpha Rigging
    - Primary Category: Industrial Equipment Supplier
    - Secondary Categories: 
      - Crane Service
@@ -29,7 +29,7 @@
    
 3. **Optimize Description** (750 characters):
    ```
-   PNW Rigging Solutions provides professional industrial rigging services across Washington State. Our OSHA-certified riggers specialize in heavy equipment moving, crane services, and structural steel rigging for metal fabrication shops, manufacturing facilities, and heavy industry. With 15+ years of experience and a perfect safety record, we offer 24/6 emergency service, load engineering, and plant maintenance support. Serving Seattle, Tacoma, Spokane, Bellevue, and all WA cities. Call (509) 555-0100 for expert rigging solutions.
+   Alpha Rigging provides professional industrial rigging services across Washington State. Our OSHA-certified riggers specialize in heavy equipment moving, crane services, and structural steel rigging for metal fabrication shops, manufacturing facilities, and heavy industry. With 15+ years of experience and a perfect safety record, we offer 24/6 emergency service, load engineering, and plant maintenance support. Serving Seattle, Tacoma, Spokane, Bellevue, and all WA cities. Call (509) 555-0100 for expert rigging solutions.
    ```
 
 4. **Upload Photos** (Minimum 20):
@@ -74,10 +74,10 @@
 
 #### A. Title Tags (Unique for each page)
 ```html
-Homepage: "Industrial Rigging Services Washington State | PNW Rigging Solutions - Expert Heavy Equipment Moving"
+Homepage: "Industrial Rigging Services Washington State | Alpha Rigging - Expert Heavy Equipment Moving"
 
 Service Pages:
-- "Heavy Equipment Moving Services WA | Industrial Machinery Rigging | PNW Rigging"
+- "Heavy Equipment Moving Services WA | Industrial Machinery Rigging | Alpha Rigging"
 - "Crane Services Washington | NCCCO Certified Operators | 24/6 Emergency"
 - "Structural Steel Rigging Services | Metal Fabrication Support | Seattle-Tacoma"
 
@@ -112,10 +112,10 @@ Location Pages:
 
 #### D. URL Structure
 ```
-Homepage: www.pnwrigging.com/
-Services: www.pnwrigging.com/services/heavy-equipment-moving/
-Locations: www.pnwrigging.com/locations/seattle-rigging-services/
-Blog: www.pnwrigging.com/blog/rigging-safety-best-practices/
+Homepage: www.alpharigginginc.com/
+Services: www.alpharigginginc.com/services/heavy-equipment-moving/
+Locations: www.alpharigginginc.com/locations/seattle-rigging-services/
+Blog: www.alpharigginginc.com/blog/rigging-safety-best-practices/
 ```
 
 #### E. Internal Linking Strategy
@@ -143,10 +143,10 @@ From "Heavy Equipment Moving" page:
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "PNW Rigging Solutions",
-  "alternateName": "PNW Rigging",
-  "url": "https://www.pnwrigging.com",
-  "logo": "https://www.pnwrigging.com/images/logo.png",
+  "name": "Alpha Rigging",
+  "alternateName": "Alpha Rigging",
+  "url": "https://www.alpharigginginc.com",
+  "logo": "https://www.alpharigginginc.com/images/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+1-509-555-0100",
@@ -155,9 +155,9 @@ From "Heavy Equipment Moving" page:
     "areaServed": "US-WA"
   },
   "sameAs": [
-    "https://www.facebook.com/pnwrigging",
+    "https://www.facebook.com/alpharigging",
     "https://www.linkedin.com/company/pnw-rigging",
-    "https://twitter.com/pnwrigging"
+    "https://twitter.com/alpharigging"
   ]
 }
 ```
@@ -167,10 +167,10 @@ From "Heavy Equipment Moving" page:
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "PNW Rigging Solutions",
-  "image": "https://www.pnwrigging.com/images/facility.jpg",
-  "@id": "https://www.pnwrigging.com",
-  "url": "https://www.pnwrigging.com",
+  "name": "Alpha Rigging",
+  "image": "https://www.alpharigginginc.com/images/facility.jpg",
+  "@id": "https://www.alpharigginginc.com",
+  "url": "https://www.alpharigginginc.com",
   "telephone": "+1-509-555-0100",
   "priceRange": "$$",
   "address": {
@@ -216,7 +216,7 @@ From "Heavy Equipment Moving" page:
   "serviceType": "Heavy Equipment Moving",
   "provider": {
     "@type": "LocalBusiness",
-    "name": "PNW Rigging Solutions"
+    "name": "Alpha Rigging"
   },
   "areaServed": {
     "@type": "State",
@@ -236,19 +236,19 @@ From "Heavy Equipment Moving" page:
       "@type": "ListItem",
       "position": 1,
       "name": "Home",
-      "item": "https://www.pnwrigging.com/"
+      "item": "https://www.alpharigginginc.com/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Services",
-      "item": "https://www.pnwrigging.com/services/"
+      "item": "https://www.alpharigginginc.com/services/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Heavy Equipment Moving",
-      "item": "https://www.pnwrigging.com/services/heavy-equipment-moving/"
+      "item": "https://www.alpharigginginc.com/services/heavy-equipment-moving/"
     }
   ]
 }
@@ -534,10 +534,10 @@ Embedded Google Map
 
 ### Citation Format (CONSISTENCY IS CRITICAL):
 ```
-Business Name: PNW Rigging Solutions
+Business Name: Alpha Rigging
 Address: 123 Industrial Way, Seattle, WA 98101
 Phone: (509) 555-0100
-Website: https://www.pnwrigging.com
+Website: https://www.alpharigginginc.com
 Categories: Industrial Equipment Supplier, Crane Service, Rigging Services
 Description: [Use optimized 200-word description]
 ```
@@ -673,7 +673,7 @@ Thanks,
 
 **Day 1 - Thank You:**
 ```
-Subject: Thank You From PNW Rigging
+Subject: Thank You From Alpha Rigging
 
 Hi [Name],
 
@@ -728,14 +728,14 @@ Best regards,
 ```
 Thank you [Name]! We're thrilled we could help with your [specific project detail]. Your team was great to work with, and we appreciate you trusting us with such an important project. We look forward to working with you again!
 
-- [Your name], PNW Rigging Solutions
+- [Your name], Alpha Rigging
 ```
 
 **Negative Reviews (respond within 2 hours):**
 ```
 Hi [Name], thank you for bringing this to our attention. We take all feedback seriously and want to make this right. Could you please contact me directly at [phone/email] so we can discuss and resolve this issue?
 
-- [Your name], Owner, PNW Rigging Solutions
+- [Your name], Owner, Alpha Rigging
 ```
 
 ---
@@ -878,7 +878,7 @@ Here's what makes each unique:
   "@type": "VideoObject",
   "name": "How We Safely Move 50-Ton Stamping Presses",
   "description": "Watch our OSHA-certified riggers safely relocate a massive stamping press in a Seattle metal fabrication shop.",
-  "thumbnailUrl": "https://www.pnwrigging.com/images/video-thumb.jpg",
+  "thumbnailUrl": "https://www.alpharigginginc.com/images/video-thumb.jpg",
   "uploadDate": "2026-02-16",
   "duration": "PT5M30S",
   "contentUrl": "https://www.youtube.com/watch?v=xxxxx"

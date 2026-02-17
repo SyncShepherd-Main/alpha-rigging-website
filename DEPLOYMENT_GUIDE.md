@@ -20,7 +20,7 @@ This guide will help you use Claude Code CLI to upload this website to GitHub an
 ## Step 1: Navigate to Website Directory
 
 ```bash
-cd pnw-rigging-website-complete
+cd alpha-rigging-website-complete
 ```
 
 ## Step 2: Initialize Git Repository
@@ -33,7 +33,7 @@ git init
 git add .
 
 # Create initial commit
-git commit -m "Initial commit: PNW Rigging Solutions website
+git commit -m "Initial commit: Alpha Rigging website
 
 - Homepage with SEO optimization
 - Service pages: Heavy Equipment Moving, Crane Services
@@ -55,10 +55,10 @@ git commit -m "Initial commit: PNW Rigging Solutions website
 gh auth login
 
 # Create repository and push
-gh repo create pnw-rigging-website --public --source=. --push
+gh repo create alpha-rigging-website --public --source=. --push
 
 # Enable GitHub Pages
-gh api repos/YOUR-USERNAME/pnw-rigging-website/pages \
+gh api repos/YOUR-USERNAME/alpha-rigging-website/pages \
   -X POST \
   -F source='{"branch":"main","path":"/"}'
 ```
@@ -66,7 +66,7 @@ gh api repos/YOUR-USERNAME/pnw-rigging-website/pages \
 ### Option B: Manual GitHub Creation
 
 1. Go to https://github.com/new
-2. Repository name: `pnw-rigging-website`
+2. Repository name: `alpha-rigging-website`
 3. Description: "Professional industrial rigging services website for Washington State"
 4. Public repository
 5. Don't initialize with README (we already have one)
@@ -75,7 +75,7 @@ gh api repos/YOUR-USERNAME/pnw-rigging-website/pages \
 Then connect your local repo:
 
 ```bash
-git remote add origin https://github.com/YOUR-USERNAME/pnw-rigging-website.git
+git remote add origin https://github.com/YOUR-USERNAME/alpha-rigging-website.git
 git branch -M main
 git push -u origin main
 ```
@@ -91,18 +91,18 @@ git push -u origin main
    - Folder: `/ (root)`
 5. Click **Save**
 6. Wait 2-3 minutes for deployment
-7. Your site will be live at: `https://YOUR-USERNAME.github.io/pnw-rigging-website/`
+7. Your site will be live at: `https://YOUR-USERNAME.github.io/alpha-rigging-website/`
 
 ### Via GitHub CLI:
 ```bash
-gh api repos/YOUR-USERNAME/pnw-rigging-website/pages \
+gh api repos/YOUR-USERNAME/alpha-rigging-website/pages \
   -X POST \
   -F source='{"branch":"main","path":"/"}'
 ```
 
 ## Step 5: Configure Custom Domain (Optional)
 
-If you own a domain (e.g., pnwrigging.com):
+If you own a domain (e.g., alpharigginginc.com):
 
 1. **In your domain registrar (GoDaddy, Namecheap, etc.):**
    
@@ -118,12 +118,12 @@ If you own a domain (e.g., pnwrigging.com):
 
 2. **In GitHub repository settings:**
    - Go to Settings → Pages
-   - Custom domain: Enter `www.pnwrigging.com`
+   - Custom domain: Enter `www.alpharigginginc.com`
    - Save
    - Check "Enforce HTTPS" (after DNS propagates)
 
 3. **Update CNAME file:**
-   The CNAME file is already created with `www.pnwrigging.com`
+   The CNAME file is already created with `www.alpharigginginc.com`
    - If using different domain, edit the CNAME file
    - Commit and push changes
 
@@ -134,8 +134,8 @@ If you own a domain (e.g., pnwrigging.com):
    - Verify "pages build and deployment" succeeded
 
 2. **Visit your site:**
-   - GitHub Pages URL: `https://YOUR-USERNAME.github.io/pnw-rigging-website/`
-   - Custom domain (after DNS): `https://www.pnwrigging.com/`
+   - GitHub Pages URL: `https://YOUR-USERNAME.github.io/alpha-rigging-website/`
+   - Custom domain (after DNS): `https://www.alpharigginginc.com/`
 
 3. **Test all pages:**
    - Homepage loads correctly
@@ -153,7 +153,7 @@ Search and replace in all files:
 find . -type f -name "*.html" -exec sed -i '' 's/(509) 555-0100/YOUR-REAL-PHONE/g' {} +
 
 # Email addresses  
-find . -type f -name "*.html" -exec sed -i '' 's/info@pnwrigging.com/YOUR-REAL-EMAIL/g' {} +
+find . -type f -name "*.html" -exec sed -i '' 's/info@alpharigginginc.com/YOUR-REAL-EMAIL/g' {} +
 
 # Address
 find . -type f -name "*.html" -exec sed -i '' 's/123 Industrial Way/YOUR-REAL-ADDRESS/g' {} +
@@ -163,7 +163,7 @@ find . -type f -name "*.html" -exec sed -i '' 's/123 Industrial Way/YOUR-REAL-AD
 1. Go to https://search.google.com/search-console
 2. Add property: Your domain
 3. Verify ownership (add meta tag to index.html OR upload HTML file)
-4. Submit sitemap: `https://www.pnwrigging.com/sitemap.xml`
+4. Submit sitemap: `https://www.alpharigginginc.com/sitemap.xml`
 
 ### C. Set Up Google Analytics
 1. Create GA4 property at https://analytics.google.com
@@ -254,7 +254,7 @@ If using Claude Code CLI for automation:
 
 ```bash
 # Upload all files to GitHub
-claude-code github:push --repo pnw-rigging-website --branch main
+claude-code github:push --repo alpha-rigging-website --branch main
 
 # Create new service page
 claude-code generate:page --template service --name "structural-steel-rigging"
@@ -263,7 +263,7 @@ claude-code generate:page --template service --name "structural-steel-rigging"
 claude-code generate:batch --template location --cities "Tacoma,Spokane,Bellevue"
 
 # Run SEO audit
-claude-code seo:audit --url https://www.pnwrigging.com
+claude-code seo:audit --url https://www.alpharigginginc.com
 
 # Update all contact information
 claude-code replace:contact --phone "555-123-4567" --email "info@realcompany.com"

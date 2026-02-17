@@ -1,4 +1,4 @@
-# PNW Industrial Rigging - Competitor Analysis & SEO Domination Strategy
+# Alpha Rigging - Competitor Analysis & SEO Domination Strategy
 
 ## Executive Summary
 This document provides a comprehensive competitive analysis of the industrial rigging market in Washington State (PNW region) and a detailed strategy to achieve first-page rankings for high-value keywords.
