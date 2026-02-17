@@ -17,15 +17,317 @@
     }
     </script>
     <style>
-        :root{--primary-orange:#FF6B2C}*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Outfit',sans-serif;line-height:1.7}nav{background:rgba(26,29,35,0.95);padding:20px 40px;position:sticky;top:0;z-index:1000}.nav-container{max-width:1400px;margin:0 auto}.logo{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:white;text-decoration:none}.logo span{color:#FF6B2C}.hero-page{background:linear-gradient(135deg,#1A1D23,#2D3748);color:white;padding:80px 40px}h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(2.5rem,6vw,4rem);margin-bottom:20px}.content-section{max-width:1400px;margin:0 auto;padding:80px 40px}.main-content h2{font-family:'Bebas Neue',sans-serif;font-size:2.5rem;margin:40px 0 20px}.main-content p{margin-bottom:20px;font-size:1.05rem;line-height:1.8}.btn{display:inline-block;padding:16px 35px;background:#FF6B2C;color:white;text-decoration:none;text-transform:uppercase}.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px;margin:40px 0}.service-card{background:white;border:2px solid #E2E8F0;padding:30px}.service-card h3{color:#FF6B2C;font-family:'Bebas Neue',sans-serif;margin-bottom:15px}footer{background:#1A1D23;color:white;padding:60px 40px 30px}
+        :root {
+            --primary-orange: #FF6B2C;
+            --deep-charcoal: #1A1D23;
+            --steel-gray: #4A5568;
+            --concrete-gray: #E2E8F0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Outfit', sans-serif; line-height: 1.7; color: var(--deep-charcoal); }
+
+        nav {
+            background: rgba(26, 29, 35, 0.95);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid var(--primary-orange);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.8rem;
+            color: white;
+            letter-spacing: 2px;
+            text-decoration: none;
+        }
+
+        .logo span { color: var(--primary-orange); }
+
+        .nav-links {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .nav-links a:hover { color: var(--primary-orange); }
+
+        .nav-links li { position: relative; }
+
+        .dropdown { position: relative; }
+
+        .dropdown-toggle {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: white;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        .dropdown-toggle:hover { color: var(--primary-orange); }
+
+        .dropdown-toggle::after {
+            content: '▼';
+            font-size: 0.7rem;
+            transition: transform 0.3s ease;
+        }
+
+        .dropdown:hover .dropdown-toggle::after { transform: rotate(180deg); }
+
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: rgba(26, 29, 35, 0.98);
+            min-width: 280px;
+            padding: 20px 0;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            border-top: 2px solid var(--primary-orange);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .dropdown:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 12px 25px;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            text-transform: none;
+            transition: all 0.3s ease;
+            border-left: 3px solid transparent;
+        }
+
+        .dropdown-menu a:hover {
+            background: rgba(255, 107, 44, 0.1);
+            border-left-color: var(--primary-orange);
+            padding-left: 30px;
+        }
+
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .breadcrumb {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px 40px;
+            color: var(--steel-gray);
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb a {
+            color: var(--steel-gray);
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover { color: var(--primary-orange); }
+
+        .hero-page {
+            background: linear-gradient(135deg, #1A1D23, #2D3748);
+            color: white;
+            padding: 80px 40px;
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            margin-bottom: 20px;
+        }
+
+        .content-section {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 80px 40px;
+        }
+
+        .main-content h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.5rem;
+            margin: 40px 0 20px;
+        }
+
+        .main-content p {
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 16px 35px;
+            background: #FF6B2C;
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #FF5212;
+            transform: translateY(-2px);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .service-card {
+            background: white;
+            border: 2px solid #E2E8F0;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .service-card:hover {
+            border-color: var(--primary-orange);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .service-card h3 {
+            color: #FF6B2C;
+            font-family: 'Bebas Neue', sans-serif;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            background: #1A1D23;
+            color: white;
+            padding: 60px 40px 30px;
+        }
+
+        @media (max-width: 968px) {
+            .mobile-menu-toggle { display: block; }
+
+            .nav-links {
+                position: fixed;
+                top: 70px;
+                left: -100%;
+                width: 100%;
+                background: rgba(26, 29, 35, 0.98);
+                flex-direction: column;
+                padding: 40px;
+                gap: 0;
+                transition: left 0.3s ease;
+                max-height: calc(100vh - 70px);
+                overflow-y: auto;
+            }
+
+            .nav-links.active { left: 0; }
+
+            .nav-links li {
+                width: 100%;
+                border-bottom: 1px solid rgba(255,255,255,0.1);
+                padding: 15px 0;
+            }
+
+            .dropdown-menu {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                border-top: none;
+                padding: 10px 0 0 20px;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+            }
+
+            .dropdown.active .dropdown-menu { max-height: 600px; }
+
+            .dropdown-toggle::after { margin-left: auto; }
+        }
     </style>
 </head>
 <body>
     <nav>
         <div class="nav-container">
             <a href="../index.html" class="logo">ALPHA <span>RIGGING</span></a>
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li class="dropdown">
+                    <span class="dropdown-toggle">Services</span>
+                    <div class="dropdown-menu">
+                        <a href="../services/heavy-equipment-moving.html">Heavy Equipment Moving</a>
+                        <a href="../services/crane-services.html">Crane Services</a>
+                        <a href="../services/structural-steel-rigging.html">Structural Steel Rigging</a>
+                        <a href="../services/plant-maintenance.html">Plant Maintenance Support</a>
+                        <a href="../services/load-engineering.html">Load Engineering & Lift Planning</a>
+                        <a href="../services/material-handling.html">Material Handling Solutions</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <span class="dropdown-toggle">Locations</span>
+                    <div class="dropdown-menu">
+                        <a href="../locations/seattle-rigging-services.html">Seattle</a>
+                        <a href="../locations/tacoma-rigging-services.html">Tacoma</a>
+                        <a href="../locations/spokane-rigging-services.html">Spokane</a>
+                        <a href="../locations/bellevue-rigging-services.html">Bellevue</a>
+                        <a href="../locations/everett-rigging-services.html">Everett</a>
+                        <a href="../locations/vancouver-rigging-services.html">Vancouver</a>
+                        <a href="../locations/yakima-rigging-services.html">Yakima</a>
+                        <a href="../locations/bellingham-rigging-services.html">Bellingham</a>
+                        <a href="../locations/olympia-rigging-services.html">Olympia</a>
+                        <a href="../locations/tri-cities-rigging-services.html">Tri-Cities</a>
+                        <a href="../locations/south-king-county-rigging-services.html">South King County</a>
+                        <a href="../locations/eastside-rigging-services.html">Eastside</a>
+                    </div>
+                </li>
+                <li><a href="../index.html#why-us">About</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
         </div>
     </nav>
+
+    <div class="breadcrumb">
+        <a href="../index.html">Home</a> / <a href="../index.html#areas">Locations</a> / Olympia
+    </div>
 
     <section class="hero-page">
         <div style="max-width:1400px;margin:0 auto">
@@ -103,5 +405,37 @@
             <p>&copy; 2026 Alpha Rigging. All rights reserved. | <strong>Olympia:</strong> (360) 555-0300</p>
         </div>
     </footer>
+
+    <script>
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+                this.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+            });
+        }
+
+        const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+        dropdownToggles.forEach(toggle => {
+            toggle.addEventListener('click', function(e) {
+                if (window.innerWidth <= 968) {
+                    e.preventDefault();
+                    const dropdown = this.parentElement;
+                    dropdown.classList.toggle('active');
+                }
+            });
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('nav') && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                if (mobileMenuToggle) {
+                    mobileMenuToggle.textContent = '☰';
+                }
+            }
+        });
+    </script>
 </body>
 </html>
