@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Alpha Rigging | Trevor Eiswald - Local Owner & Operator | Chehalis WA</title>
-    <meta name="description" content="Meet Trevor Eiswald, owner of Alpha Rigging. A Chehalis, Washington local with 22+ years of rigging experience. Family-owned, owner-operated business serving the Pacific Northwest with integrity and expertise.">
-    <meta name="keywords" content="Trevor Eiswald, Chehalis rigging, local owner operator, Washington rigging company, family owned rigging business">
+    <title>Contact Alpha Rigging | Get a Free Quote | Chehalis WA</title>
+    <meta name="description" content="Contact Alpha Rigging for professional rigging services in Washington State. Call 24/6 at (509) 555-0100 or request a free quote. Emergency service available.">
+    <meta name="keywords" content="contact Alpha Rigging, rigging services quote, Chehalis rigging company, Washington rigging services, emergency rigging">
 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 
@@ -76,7 +76,8 @@
             letter-spacing: 1px;
         }
 
-        .nav-links a:hover {
+        .nav-links a:hover,
+        .nav-links a.active {
             color: var(--primary-orange);
         }
 
@@ -206,99 +207,174 @@
             padding: 80px 40px;
         }
 
-        .main-content h2 {
+        /* Contact Section Styles */
+        .contact-section {
+            background: var(--concrete-gray);
+            padding: 100px 40px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: var(--primary-orange);
+            color: white;
+            padding: 8px 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0 100%);
+        }
+
+        .section-title {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: 2.5rem;
-            margin: 40px 0 20px;
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            margin-bottom: 20px;
             color: var(--deep-charcoal);
         }
 
-        .main-content h3 {
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: var(--steel-gray);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: start;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            background: white;
+            padding: 40px;
+            clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: start;
+            gap: 20px;
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid var(--concrete-gray);
+        }
+
+        .contact-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--primary-orange);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .contact-details h3 {
             font-family: 'Bebas Neue', sans-serif;
-            font-size: 1.8rem;
-            margin: 30px 0 15px;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: var(--deep-charcoal);
+        }
+
+        .contact-details p {
+            color: var(--steel-gray);
+            margin: 5px 0;
+        }
+
+        .contact-details a {
+            color: var(--steel-gray);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-details a:hover {
             color: var(--primary-orange);
         }
 
-        .main-content p {
-            margin-bottom: 20px;
-            font-size: 1.05rem;
-            line-height: 1.8;
-            color: var(--steel-gray);
-        }
-
-        .main-content strong {
-            color: var(--deep-charcoal);
-        }
-
-        .highlight-box {
-            background: var(--concrete-gray);
-            border-left: 5px solid var(--primary-orange);
-            padding: 30px;
-            margin: 40px 0;
-        }
-
-        .highlight-box h3 {
-            margin-top: 0;
-        }
-
-        .values-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
-        }
-
-        .value-card {
+        .contact-form {
             background: white;
+            padding: 40px;
+            clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--deep-charcoal);
+            font-size: 0.95rem;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 15px;
             border: 2px solid var(--concrete-gray);
-            padding: 30px;
+            background: white;
+            font-family: 'Outfit', sans-serif;
+            font-size: 1rem;
             transition: all 0.3s ease;
         }
 
-        .value-card:hover {
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
             border-color: var(--primary-orange);
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
 
-        .value-card h3 {
-            color: var(--primary-orange);
-            font-family: 'Bebas Neue', sans-serif;
-            margin-bottom: 15px;
-            font-size: 1.5rem;
+        .form-group textarea {
+            min-height: 150px;
+            resize: vertical;
         }
 
-        .value-card p {
-            color: var(--steel-gray);
-            margin: 0;
-        }
-
-        .stats-row {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
-            text-align: center;
-        }
-
-        .stat-box {
-            background: var(--primary-orange);
-            color: white;
-            padding: 30px;
-        }
-
-        .stat-number {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 3rem;
-            line-height: 1;
-            margin-bottom: 10px;
-        }
-
-        .stat-label {
-            font-size: 0.95rem;
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 1rem;
+            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 1px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-family: 'Outfit', sans-serif;
+            clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%);
+        }
+
+        .btn-primary {
+            background: var(--primary-orange);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #d65f09;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(237, 109, 13, 0.4);
         }
 
         footer {
@@ -399,6 +475,19 @@
             .dropdown-toggle::after {
                 margin-left: auto;
             }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-page {
+                padding: 60px 20px;
+            }
+
+            .content-section,
+            .contact-section {
+                padding: 60px 20px;
+            }
         }
     </style>
 </head>
@@ -437,130 +526,107 @@
                     </div>
                 </li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="breadcrumb">
-        <a href="index.html">Home</a> / About
+        <a href="index.html">Home</a> / Contact
     </div>
 
     <section class="hero-page">
-        <h1>Meet Trevor Eiswald: Your Local Rigging Expert</h1>
-        <p>A Chehalis native with 22+ years of experience. Owner-operated, family-focused, and committed to serving Washington State with integrity.</p>
+        <h1>Contact Us</h1>
+        <p>Get in touch with Alpha Rigging for professional rigging services. We're here to help with your project needs, provide free quotes, and answer any questions you may have.</p>
     </section>
 
-    <div class="content-section">
-        <div class="main-content">
-            <h2>Local Roots, Professional Excellence</h2>
-            <p>Trevor Eiswald isn't just another rigging contractor—he's your neighbor. Born and raised in Chehalis, Washington, Trevor has called Lewis County home for 31 years. As the owner and operator of Alpha Rigging, he brings more than just technical expertise to every job. He brings the values of a local family man who understands the importance of trust, reliability, and doing the job right the first time.</p>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="section-header">
+            <div class="section-badge">Get In Touch</div>
+            <h2 class="section-title">Contact Our Team</h2>
+            <p class="section-subtitle">Let's discuss how we can support your next project</p>
+        </div>
 
-            <p>When you hire Alpha Rigging, you're not dealing with a faceless corporation or absentee ownership. You're working directly with Trevor—a husband, father of three, and a skilled professional who has dedicated over two decades to mastering the rigging trade. That personal touch makes all the difference.</p>
-
-            <div class="stats-row">
-                <div class="stat-box">
-                    <div class="stat-number">31</div>
-                    <div class="stat-label">Years in Chehalis</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-number">22+</div>
-                    <div class="stat-label">Years Experience</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Owner Operated</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-number">1</div>
-                    <div class="stat-label">Family Business</div>
-                </div>
-            </div>
-
-            <h2>Why Owner-Operated Matters</h2>
-            <p>In the rigging industry, experience and accountability are everything. When Trevor shows up to assess your project, you're getting someone with 22 years of hands-on experience—not a sales rep reading from a script. When his crew arrives on site, you can trust they're trained to Trevor's exacting standards. And when you call with a question or concern, you're talking to the owner, not a customer service department.</p>
-
-            <p><strong>As an owner-operator, Trevor personally:</strong></p>
-            <ul style="margin: 20px 0 20px 40px; line-height: 2;">
-                <li>Evaluates every job and provides detailed quotes</li>
-                <li>Oversees crew training and safety protocols</li>
-                <li>Responds to emergency calls 24/6</li>
-                <li>Ensures quality control on every project</li>
-                <li>Stands behind every job with his personal reputation</li>
-            </ul>
-
-            <div class="highlight-box">
-                <h3>A Family Man Who Understands Your Business</h3>
-                <p>Trevor knows what it's like to juggle responsibilities. As a husband and father of three children, he understands the pressure of keeping operations running smoothly while maintaining safety and quality. He treats your business the way he treats his family—with care, respect, and unwavering commitment.</p>
-                <p style="margin-top: 15px;"><strong>That family-first mentality extends to how Trevor runs Alpha Rigging:</strong> fair pricing, honest communication, and service you can count on when it matters most.</p>
-            </div>
-
-            <h2>22+ Years of Rigging Excellence</h2>
-            <p>Trevor didn't just wake up one day and start a rigging company. He earned his expertise the hard way—through years of apprenticeship, thousands of successful lifts, and continuous education in the latest rigging techniques and safety standards.</p>
-
-            <p>His experience spans the full spectrum of rigging operations:</p>
-            <ul style="margin: 20px 0 20px 40px; line-height: 2;">
-                <li>Heavy equipment moving and machinery relocation</li>
-                <li>Structural steel rigging for fabrication shops</li>
-                <li>Load engineering and lift planning</li>
-                <li>Plant maintenance and emergency breakdown support</li>
-                <li>Load engineering and center of gravity analysis</li>
-                <li>Material handling systems and logistics</li>
-            </ul>
-
-            <p>From small machine shops in Centralia to major manufacturing facilities across Washington State, Trevor has seen it all—and successfully rigged it all. That depth of experience means fewer surprises, smarter solutions, and safer operations on your job site.</p>
-
-            <h2>Our Core Values</h2>
-            <div class="values-grid">
-                <div class="value-card">
-                    <h3>Safety First, Always</h3>
-                    <p>Every crew member is OSHA certified. Every lift is thoroughly planned. Every piece of equipment is inspected. Safety isn't a slogan—it's how we operate.</p>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <p><strong>Main:</strong> <a href="tel:+15095550100">(509) 555-0100</a></p>
+                        <p><strong>Emergency:</strong> <a href="tel:+15095550911">(509) 555-0911</a></p>
+                        <p>Available 24/6 for emergencies</p>
+                    </div>
                 </div>
 
-                <div class="value-card">
-                    <h3>Honest Communication</h3>
-                    <p>No surprises, no excuses, no runarounds. Trevor gives you straight answers about timelines, costs, and capabilities. If he can't do something, he'll tell you upfront.</p>
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@alpharigging.com">info@alpharigging.com</a></p>
+                        <p><a href="mailto:trevor@alpharigging.com">trevor@alpharigging.com</a></p>
+                        <p>Response within 2 business hours</p>
+                    </div>
                 </div>
 
-                <div class="value-card">
-                    <h3>Local Accountability</h3>
-                    <p>Trevor lives and works in this community. His reputation is built on 31 years of local relationships. When you call, you're talking to someone who answers to his neighbors.</p>
-                </div>
-
-                <div class="value-card">
-                    <h3>Professional Excellence</h3>
-                    <p>Two decades of experience means Trevor and his crew know how to handle complex lifts with precision and efficiency. We take pride in getting it right.</p>
-                </div>
-
-                <div class="value-card">
-                    <h3>Family Values</h3>
-                    <p>We treat clients the way we want to be treated. Fair pricing, reliable service, and respect for your time and your business.</p>
-                </div>
-
-                <div class="value-card">
-                    <h3>Community Focused</h3>
-                    <p>Supporting local businesses isn't just talk—it's how we build strong communities. When you hire Alpha Rigging, you're supporting a local family.</p>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Chehalis, Washington</p>
+                        <p>Serving all of Washington State</p>
+                        <p>Mon-Fri: 7:00 AM - 6:00 PM</p>
+                    </div>
                 </div>
             </div>
 
-            <h2>Serving Washington State from Chehalis</h2>
-            <p>While Alpha Rigging is based in Chehalis, Trevor and his crew serve businesses throughout Washington State. From Seattle's industrial corridor to Spokane's manufacturing facilities, from Port of Tacoma operations to agricultural processing plants in Yakima—we bring local expertise and owner accountability wherever we're needed.</p>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
 
-            <p><strong>Major service areas include:</strong> Lewis County, Thurston County, Pierce County, King County, Grays Harbor, Cowlitz County, and all of Western and Eastern Washington. If you have equipment that needs moving, we'll get there.</p>
+                    <div class="form-group">
+                        <label for="company">Company Name</label>
+                        <input type="text" id="company" name="company">
+                    </div>
 
-            <h2>Let's Talk About Your Project</h2>
-            <p>When you're ready to work with a rigging professional who will treat your business with the respect it deserves, give Trevor a call. Whether it's a routine equipment move or an emergency breakdown situation, you'll get honest advice, fair pricing, and expert execution.</p>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
 
-            <p><strong>Call Trevor directly:</strong> <a href="tel:+15095550100" style="color: var(--primary-orange); text-decoration: none;">(509) 555-0100</a><br>
-            <strong>24/6 Emergency:</strong> <a href="tel:+15095550911" style="color: var(--primary-orange); text-decoration: none;">(509) 555-0911</a><br>
-            <strong>Email:</strong> <a href="mailto:trevor@alpharigging.com" style="color: var(--primary-orange); text-decoration: none;">trevor@alpharigging.com</a></p>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
 
-            <div class="highlight-box" style="margin-top: 60px; text-align: center; border-left: none; border-top: 5px solid var(--primary-orange);">
-                <p style="font-size: 1.2rem; margin: 0;"><strong>Alpha Rigging:</strong> Local ownership. Professional excellence. Family values.</p>
-                <p style="font-size: 1.1rem; margin: 20px 0 0 0; color: var(--steel-gray);">Proudly serving Washington State from Chehalis since day one.</p>
+                    <div class="form-group">
+                        <label for="service">Service Needed</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="heavy-equipment">Heavy Equipment Moving</option>
+                            <option value="structural-steel">Structural Steel Rigging</option>
+                            <option value="maintenance">Plant Maintenance Support</option>
+                            <option value="engineering">Load Engineering</option>
+                            <option value="material-handling">Material Handling</option>
+                            <option value="emergency">Emergency Service</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your project, equipment weight, timeline, and any special requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Request Quote</button>
+                </form>
             </div>
         </div>
-    </div>
+    </section>
 
     <footer>
         <div class="footer-content">
