@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [2026-02-17] - Content & Structure Updates
+## [2026-02-17] - Content, Structure & Branding Updates
 
 ### Added
 - **New Contact Page (contact.html)**
@@ -51,18 +51,31 @@ All notable changes to this project will be documented in this file.
   - Updated homepage lastmod date to 2026-02-17
   - Removed crane services entry
 
+- **Branding Updates**
+  - Changed company name from "PNW Rigging Solutions" to "ALPHA RIGGING" throughout site
+  - Updated domain from pnwrigging.com to alpharigginginc.com
+  - Updated all email addresses to @alpharigginginc.com
+  - Updated CNAME file with new domain
+  - Updated sitemap.xml with new domain URLs
+  - Updated schema.org JSON-LD markup with correct company name
+  - Updated Open Graph tags with correct branding
+  - Reason: Correct company branding and domain for launch
+  - Files affected: 12 files (HTML, XML, documentation)
+
 ### Summary Statistics
-- **Total commits today:** 3
-- **Total files changed:** 45 (across all commits)
+- **Total commits today:** 5
+- **Total files changed:** 57 (across all commits)
 - **New pages created:** 1 (contact.html)
 - **Pages deleted:** 1 (crane-services.html)
-- **Lines added:** ~896
-- **Lines removed:** ~615
+- **Lines added:** ~976
+- **Lines removed:** ~695
 
 ### Git Commit References
 1. `dbea981` - Remove crane services from website
 2. `b36773d` - Update availability from 24/7 to 24/6 (not open Saturdays)
 3. `05061c9` - Add dedicated contact page
+4. `ac313e0` - Add comprehensive documentation for 2026-02-17 updates
+5. `87585f2` - Update branding: Company name and domain
 
 ### Testing Recommendations
 - [ ] Verify contact page loads correctly
